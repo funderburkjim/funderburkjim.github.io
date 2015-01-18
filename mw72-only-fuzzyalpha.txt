@@ -1,0 +1,920 @@
+------------------------------------------------------------------------
+001 anuSAsat
+001 anuSAana ->  (anuSAsana)
+001 anuSAanIya
+------------------------------------------------------------------------
+002 anuSAana
+002 anuSAanIya -> anuSAsanIya ()
+002 anuSAsita
+------------------------------------------------------------------------
+003 apahastaya
+003 apaastita -> apahastita ()
+003 apahA
+------------------------------------------------------------------------
+004 apAramArTika
+004 apAeC -> apArC ()
+004 apArjita
+------------------------------------------------------------------------
+005 aBidazwa
+005 aBiah -> aBidah (aBinah,aBivah,aBizah,aByah)
+005 aBidA
+------------------------------------------------------------------------
+006 asAra
+006 asifdDita -> asidDida ()
+006 asTidantamaya
+------------------------------------------------------------------------
+007 upaka
+007 upaF ->  (upa,upaf,upakF,upagF,upapF,upamF,upas)
+007 upakakza
+------------------------------------------------------------------------
+008 tArakita
+008 tArakia -> tArakin (tAraka,tArakita)
+008 tAraRa
+------------------------------------------------------------------------
+009 DoraRa
+009 Dortia -> Dorita,Doritika (Dartra,DArta,DUrta,DUrti,DUrtila,DUrtta,Dotra,Dora,DoraRa,DOrtika,DOrtya)
+009 DOta
+------------------------------------------------------------------------
+010 BuraRyat
+010 BuruaRyu -> BuraRyu ()
+010 BuramARa
+------------------------------------------------------------------------
+011 BurvaRi
+011 Buruan ->  (Burvan)
+011 Buraj
+------------------------------------------------------------------------
+012 mokz
+012 muokzayizu ->  (mumokzayizu)
+012 mokza
+------------------------------------------------------------------------
+013 yatratya
+013 yaTaFzi -> yaTafzi,yaTarzi ()
+013 yaTA
+------------------------------------------------------------------------
+014 fDat
+014 fDila ->  (fdDila,fzila)
+014 fDak
+------------------------------------------------------------------------
+015 tulyakulya
+015 tfnAvarta -> tfRAvarta ()
+015 tfzwa
+------------------------------------------------------------------------
+016 yatratya
+016 yaTaFzi -> yaTafzi,yaTarzi ()
+016 yaTA
+------------------------------------------------------------------------
+017 vahizwAt
+017 vahequka -> vahequkaH ()
+017 vahni
+------------------------------------------------------------------------
+018 acCa
+018 acCE ->  (acCa,acCA,acCe)
+018 acCanakz
+------------------------------------------------------------------------
+019 apara
+019 aparADRa -> aparADa,aparAhRa ()
+019 aparetarA
+------------------------------------------------------------------------
+020 apalpUlanakfta
+020 apavakrf -> apavaktf ()
+020 apavAcana
+------------------------------------------------------------------------
+021 apaSada
+021 apaSavda -> apaSabda (apaSada,apaSavya)
+021 apaSama
+------------------------------------------------------------------------
+022 aBicCad
+022 abBicCAyam -> aBicCAyam ()
+022 aBijagmivas
+------------------------------------------------------------------------
+023 aBIzAh
+023 abBukta -> aBukta ()
+023 aBuj
+------------------------------------------------------------------------
+024 aBiniviS
+024 aBiniviDwa -> aBinivizwa ()
+024 aBiniveSa
+------------------------------------------------------------------------
+025 aBisantApa
+025 aBisantF ->  (aBisaMtF)
+025 aBisantyaj
+------------------------------------------------------------------------
+026 aBIzu
+026 aBIztu ->  (aBIzu)
+026 aBIzaNga
+------------------------------------------------------------------------
+027 ayuj
+027 ayugvARa ->  (ayugbARa)
+027 ayuja
+------------------------------------------------------------------------
+028 ayoGana
+028 ayoccizwa -> ayocCizwa ()
+028 ayojAla
+------------------------------------------------------------------------
+029 araNgin
+029 araNGuza ->  (araMGuza)
+029 arajas
+------------------------------------------------------------------------
+030 ANkuSAyana
+030 ANkfti ->  (Akfti,AMkfti)
+030 ANkzI
+------------------------------------------------------------------------
+031 AroQavya
+031 AroQri -> AroQf (ArAQi,ArUQi,AroQar)
+031 Aropa
+------------------------------------------------------------------------
+032 upasaMhfti
+032 upasaNkxp ->  (upasaMkxp)
+032 upasaNkxpta
+------------------------------------------------------------------------
+033 upasaNkxp
+033 upasaNkxpta ->  (upasaMkxpta)
+033 upasaNkram
+------------------------------------------------------------------------
+034 kEkeya
+034 kENkarya -> kENkaryya (kEMkarya)
+034 kEwa
+------------------------------------------------------------------------
+035 camb
+035 camniz -> camriz ()
+035 camrIza
+------------------------------------------------------------------------
+036 tanyu
+036 tanlIka ->  (tanaka,tanuka,tantuka,tarIka,talaka,talka,talloka)
+036 tanva
+------------------------------------------------------------------------
+037 tfQa
+037 tfQvA -> tfRyA,tfDA,tfpA,tfzA,tfzRA,tfzyA (tadvA,tfQa,tvA)
+037 tF
+------------------------------------------------------------------------
+038 dfzadya
+038 dfzkARa ->  (dfkARa,dfkkARa)
+038 dfzwa
+------------------------------------------------------------------------
+039 nandAyanIya
+039 nanqi -> nandi ()
+039 nandika
+------------------------------------------------------------------------
+040 nArItaraNgaka
+040 nAruntuda -> nAruMtuda ()
+040 nArtika
+------------------------------------------------------------------------
+041 nicuNkuRa
+041 nicumyuRa -> nicumpuRa ()
+041 nicula
+------------------------------------------------------------------------
+042 nirgfha
+042 nirgF -> nirgE (nigF,nirga,nirgA,nirjF,nirdF)
+042 nirgOrava
+------------------------------------------------------------------------
+043 nizpAvala
+043 nizpF -> nizpU (nipF,nizpA,nizpf)
+043 nizpUrta
+------------------------------------------------------------------------
+044 parimfdita
+044 parimfdnat ->  (parimfzyat)
+044 parimfS
+------------------------------------------------------------------------
+045 parisaNKyAna
+045 parisaNGuz ->  (parisaNGuzwa)
+045 parisaNGuzwa
+------------------------------------------------------------------------
+046 parisaNGuz
+046 parisaNGuzwa ->  (parisaMGuzwa)
+046 parisaYcakz
+------------------------------------------------------------------------
+047 pAMsava
+047 pAnsin -> pAMsin ()
+047 pAMsuka
+------------------------------------------------------------------------
+048 prASin
+048 prASnat ->  (praSna,praSnaH,praSnati,praSnay,prAgvat,prARat,prASa,prASaH,prASana,prASanaM,prASanam,prASya,prASvas,prAhna)
+048 prASya
+------------------------------------------------------------------------
+049 prertvan
+049 preryamARa ->  (prezyamARa)
+049 prez
+------------------------------------------------------------------------
+050 prodgata
+050 prodgE -> prodgam (pragE,protKE,prodi,prodDA,prodDf)
+050 prodgIta
+------------------------------------------------------------------------
+051 marmarIka
+051 marmfjenyu -> marmfjenya ()
+051 marmftyu
+------------------------------------------------------------------------
+052 mukuwwa
+052 mukuRdI -> mukuRwI ()
+052 mukunda
+------------------------------------------------------------------------
+053 mUzIkakarRI
+053 mUzpAyaRa -> mUzyAyaRa ()
+053 mUsariHPa
+------------------------------------------------------------------------
+054 rUQi
+054 rUQvA -> rUQiH,rUpA,rUpyA,revA (ratvA,ravA,rAQA,rIQA,ruDvA,ruhvA,rUkzA,rUQa,rUQaM,rUQaH,rUQi)
+054 roQf
+------------------------------------------------------------------------
+055 lIQa
+055 lIQvA -> lIQaH,lIlA,lIva,lUtvA (lawvA,laqvA,lahvA,lAtvA,lAvA,lIkA,lIkkA,lIkzA,lIQa,loQA)
+055 leliha
+------------------------------------------------------------------------
+056 vivfRvat
+056 vivfRvAna ->  (vfRvAna,vyAvfRvAna)
+056 vivfta
+------------------------------------------------------------------------
+057 vfRvat
+057 vfRvAna -> vfRvARa (vfRAna)
+057 vfta
+------------------------------------------------------------------------
+058 vyApti
+058 vyApnuvAna ->  (vyaSnuvAna)
+058 vyApya
+------------------------------------------------------------------------
+059 SIrzaRya
+059 Sirzan -> SIrzan ()
+059 SIl
+------------------------------------------------------------------------
+060 Sulva
+060 Sulvika ->  (SAlvika,Sulkika,Sulbika,SOlvika)
+060 SuSukvas
+------------------------------------------------------------------------
+061 SraTitvA
+061 SraTnAna -> SraddAna,SradDAna (SraTana,SraTAya)
+061 SranTa
+------------------------------------------------------------------------
+062 saMvfRvat
+062 saMvfRvAna ->  ()
+062 saMvfta
+------------------------------------------------------------------------
+063 saNkfzwa
+063 saNkF ->  (saNka,saNkA,saNku,saNkf,saMkF)
+063 saNkara
+------------------------------------------------------------------------
+064 saNkIrtyamAna
+064 saNkxp ->  (saNkup,saMkxp)
+064 saNkalpa
+------------------------------------------------------------------------
+065 saNkalpya
+065 saNkxpta ->  (saMkxpta,saNkxpti)
+065 saNkxpti
+------------------------------------------------------------------------
+066 saNkxpta
+066 saNkxpti ->  (saNkxpta,saMkxpti)
+066 saNketa
+------------------------------------------------------------------------
+067 saNgIrya
+067 saNgE ->  (saNga,saNgA,saNgI,saNgf,saMgE)
+067 saNgIta
+------------------------------------------------------------------------
+068 saNGAtya
+068 saNGuz ->  (saMGuz,saNGfz)
+068 saNGuzita
+------------------------------------------------------------------------
+069 saNGuz
+069 saNGuzita ->  (saMGuzita)
+069 saNGuzwa
+------------------------------------------------------------------------
+070 saNGuzwa
+070 saNGfz ->  (saNkfz,saNGuz,saMGfz)
+070 saNGarza
+------------------------------------------------------------------------
+071 saNGarzin
+071 saNGfzwa -> saNGuzwa (saNkfzwa,saMGfzwa)
+071 saNGfzyat
+------------------------------------------------------------------------
+072 saNGfzwa
+072 saNGfzyat ->  (saNGfzwa)
+072 saNGrA
+------------------------------------------------------------------------
+073 saNgin
+073 saNjagmAna ->  (sajjamAna)
+073 saNgamanera
+------------------------------------------------------------------------
+074 saNgUQa
+074 saNjuGukzA ->  (saNjuGukzu,saYjuGukzA,saMjuGukzA)
+074 saNjuGukzu
+------------------------------------------------------------------------
+075 saNjuGukzA
+075 saNjuGukzu ->  (saNjuGukzA,saYjuGukzu,saMjuGukzu)
+075 saNgfBita
+------------------------------------------------------------------------
+076 saYCanna
+076 saYCAdana ->  (saMCAdana)
+076 saYCAdya
+------------------------------------------------------------------------
+077 saYCAdana
+077 saYCAdya ->  (saYCidya)
+077 saYCAdyamAna
+------------------------------------------------------------------------
+078 saYCAdya
+078 saYCAdyamAna ->  (saYCidyamAna)
+078 saYCad
+------------------------------------------------------------------------
+079 saYCandyamAna
+079 saYCid ->  (saYCad,saMCid)
+079 saYCidya
+------------------------------------------------------------------------
+080 saYCid
+080 saYCidya ->  (saYCAdya,saYCidyat)
+080 saYCidyat
+------------------------------------------------------------------------
+081 saYCidya
+081 saYCidyat ->  (saYCidya)
+081 saYCidyamAna
+------------------------------------------------------------------------
+082 saYCidyat
+082 saYCidyamAna ->  (saYCAdyamAna)
+082 saYCinna
+------------------------------------------------------------------------
+083 saYjfmB
+083 saYjf ->  (saYj,saYja,saYjA,saYji)
+083 saYjYa
+------------------------------------------------------------------------
+084 saYjUrv
+084 saYjfmB ->  (saMjfmB)
+084 saYjf
+------------------------------------------------------------------------
+085 sanDU
+085 sanDf ->  (santf,sanDa,sanDA,sanDi,sanDU,saMDf,sanDfz)
+085 sanDAraRa
+------------------------------------------------------------------------
+086 sanDAryamARa
+086 sanDfta -> sanDita (saMDfta)
+086 sanDfz
+------------------------------------------------------------------------
+087 sanDfta
+087 sanDfz ->  (sanDf)
+087 sanDarzita
+------------------------------------------------------------------------
+088 samuccitya
+088 samuccIya ->  (samuccaya,samucceya)
+088 samuccIyamAna
+------------------------------------------------------------------------
+089 samuccIya
+089 samuccIyamAna ->  ()
+089 samucCad
+------------------------------------------------------------------------
+090 samudIz
+090 samuqga -> samudga (samuqgam,samuqgF,samuqgE)
+090 samudgaka
+------------------------------------------------------------------------
+091 samudgaka
+091 samuqgam ->  (samuqga,samudgam)
+091 samudga
+------------------------------------------------------------------------
+092 samudgama
+092 samuqgF ->  (samuqga,samuqgE)
+092 samudgIrRa
+------------------------------------------------------------------------
+093 samudgIrRa
+093 samuqgE ->  (samuqga,samuqgF)
+093 samudgIta
+------------------------------------------------------------------------
+094 samudDvasta
+094 samuqbanD ->  (samudbanD)
+094 samudbaDya
+------------------------------------------------------------------------
+095 samudbaDya
+095 samuqbuD -> samudbuD ()
+095 samudboDa
+------------------------------------------------------------------------
+096 samudrikta
+096 samuqvas -> samudvas ()
+096 samudvah
+------------------------------------------------------------------------
+097 samudvAha
+097 samuqvij ->  (samudvij)
+097 samudvigna
+------------------------------------------------------------------------
+098 samudvIkzya
+098 samuqvft ->  (samuqvfh,samudvft)
+098 samudvartita
+------------------------------------------------------------------------
+099 samudvftta
+099 samuqvfh -> samudvfh (samuqvft)
+099 samund
+------------------------------------------------------------------------
+100 samIcIna
+100 samnAj -> samrAj (samAj)
+100 samrAjat
+------------------------------------------------------------------------
+101 samprerRa
+101 samprerya ->  (samprerRa,samprezya)
+101 samprez
+------------------------------------------------------------------------
+102 saraRyu
+102 saraRyU ->  (saraRy,saraRya,saraRyu,sarayU)
+102 sarat
+------------------------------------------------------------------------
+103 sANkfti
+103 sANkftya ->  (saNkftya,sAMkftya,sANketya)
+103 sANketika
+------------------------------------------------------------------------
+104 sizmiyARa
+104 sizvidAna ->  (saMvidAna)
+104 sisfkzA
+------------------------------------------------------------------------
+105 snIQa
+105 snIQvA -> snIhA (sAQvA,snAtvA,snAvA,snIQa,snutvA)
+105 snIhiti
+------------------------------------------------------------------------
+106 adatrayA
+106 adadyraYc -> adadyaYc ()
+106 adana
+------------------------------------------------------------------------
+107 aDityakA
+107 aDidaRqnetf -> aDidaRqanetf ()
+107 aDidanta
+------------------------------------------------------------------------
+108 anusaNKyA
+108 anusaNgrah ->  (anusaMgrah)
+108 anusaYcar
+------------------------------------------------------------------------
+109 anusaYcint
+109 anusaYjvar ->  (anusaMjvar)
+109 anusantan
+------------------------------------------------------------------------
+110 apavyAdA
+110 apapvrata -> apavrata ()
+110 apaSakuna
+------------------------------------------------------------------------
+111 apyuta
+111 apprakawa -> aprakawa ()
+111 aprakampa
+------------------------------------------------------------------------
+112 apratisaNkrama
+112 apratisaNKya ->  (apratisaMKya)
+112 apratihata
+------------------------------------------------------------------------
+113 aBOtika
+113 abzyagni ->  (abDyagni)
+113 aByagra
+------------------------------------------------------------------------
+114 aBimuKIBUta
+114 aBimUrcCita -> aBimUrCita (atimUrcCita,aDimUrcCita)
+114 aBimfd
+------------------------------------------------------------------------
+115 aBisaMkruD
+115 aBisaNkrudDa ->  (aBisaMkrudDa)
+115 aBisaNkruDyat
+------------------------------------------------------------------------
+116 aBisaMkruS
+116 aBisaNkzip -> aBisaMkzip ()
+116 aBisaNkzipta
+------------------------------------------------------------------------
+117 aBisaYjAta
+117 aBisaYjYA ->  (aBisaMjYA)
+117 aBisaYjvar
+------------------------------------------------------------------------
+118 aBirAma
+118 aBisaYjYita -> aBisaMjYita ()
+118 aBisara
+------------------------------------------------------------------------
+119 aBisaYjYA
+119 aBisaYjvar ->  (aBisaMjvar)
+119 aBisatvan
+------------------------------------------------------------------------
+120 amlIBUta
+120 amvla ->  (amala,amAla,amila,amUla,ambla,amla,amvlaH,avla)
+120 amlAna
+------------------------------------------------------------------------
+121 arrk
+121 arrka ->  (araka,aroka,arka,arrk)
+121 arkin
+------------------------------------------------------------------------
+122 asaMjYa
+122 asaYjYisattva -> asaMjYisattva ()
+122 asat
+------------------------------------------------------------------------
+123 AdeSya
+123 Adezwri ->  (Adfzwi,Adezwar,AdezwA,Adezwf)
+123 AdInava
+------------------------------------------------------------------------
+124 upasaNkram
+124 upasaNkzepa ->  (upasaMkzepa)
+124 upasaNKyAna
+------------------------------------------------------------------------
+125 upasaNgam
+125 upasaNgrah ->  (upasaMgrah,upasaNgraha)
+125 upasaNgfhya
+------------------------------------------------------------------------
+126 upasaNgraha
+126 upasaNgrahaRa ->  (upasaMgrahaRa)
+126 upasaNgrAhya
+------------------------------------------------------------------------
+127 upasaNgrahaRa
+127 upasaNgrAhya ->  (upasaMgrAhya)
+127 upasaYcar
+------------------------------------------------------------------------
+128 ezwavya
+128 ezwri -> ezwi ()
+128 ezya
+------------------------------------------------------------------------
+129 kakkola
+129 kakkvalla ->  (kakvalla)
+129 kakK
+------------------------------------------------------------------------
+130 kiNkirin
+130 kiNkzaRa ->  (kiMkzaRa)
+130 kiYca
+------------------------------------------------------------------------
+131 tIkzRaka
+131 tIkzRizWa ->  (tekzRizWa)
+131 tIkzRIyas
+------------------------------------------------------------------------
+132 dugDinikA
+132 dugDvA ->  (dagDvA)
+132 duGa
+------------------------------------------------------------------------
+133 niHsaNkakza
+133 niHsaNKya ->  (niHsaMKya)
+133 niHsaNga
+------------------------------------------------------------------------
+134 niHsaYcAra
+134 niHsaYjYa ->  (niHsajYa,niHsaMjYa,nisaYjYa)
+134 niHsattva
+------------------------------------------------------------------------
+135 nisaNkakza
+135 nisaYjYa ->  (niHsaYjYa,nisaMjYa)
+135 nisampAta
+------------------------------------------------------------------------
+136 nEvasaMjYAnAsaMjYAyatana
+136 nEvasaYjYAsamADi -> nEvasaMjYAsamADi ()
+136 nEvAra
+------------------------------------------------------------------------
+137 parisaKya
+137 parisaNkrIq ->  (parisaMkrIq)
+137 parisaNkrIqat
+------------------------------------------------------------------------
+138 parisaNkrIq
+138 parisaNkrIqat ->  (parisaNkrIq)
+138 parisaNkzip
+------------------------------------------------------------------------
+139 parisaNkrIqat
+139 parisaNkzip ->  (parisaMkzip)
+139 parisaNKyA
+------------------------------------------------------------------------
+140 pAzaRqa
+140 pAzRqaka -> pAzaRqaka (pARqaka)
+140 pAzaRqin
+------------------------------------------------------------------------
+141 pratisaNkruD
+141 pratisaNkrudDa ->  (pratisaMkrudDa)
+141 pratisaNKyA
+------------------------------------------------------------------------
+142 pratisaNkrama
+142 pratisaNkruD ->  (pratisaNkram,pratisaNkrudDa)
+142 pratisaNkrudDa
+------------------------------------------------------------------------
+143 pratisaNgin
+143 pratisaNgrah ->  (pratisaMgrah)
+143 pratisaYcar
+------------------------------------------------------------------------
+144 pratisaYjIv
+144 pratisaYjYA ->  (pratisaMjYA)
+144 pratisadfkza
+------------------------------------------------------------------------
+145 pradeSinI
+145 pradezwri ->  (pradezwar,pradezwf)
+145 pradih
+------------------------------------------------------------------------
+146 badDaka
+146 badDvA -> badDA (baDvA,budDvA)
+146 badva
+------------------------------------------------------------------------
+147 budDi
+147 budDvA ->  (badDvA)
+147 buD
+------------------------------------------------------------------------
+148 BittikA
+148 BittvA ->  (BaktvA,Bitta,BittaM,Bittam,Bitti,BittiH,BittikA,BuktvA,BUtvA,Bfttva,BettA)
+148 Bid
+------------------------------------------------------------------------
+149 mAsa
+149 mitAkzarAsidDAntasaNgraha -> mitAkzarasidDAntasaMgraha ()
+149 mfj
+------------------------------------------------------------------------
+150 rudDaka
+150 rudDvA -> rudDA (ruDvA)
+150 ruD
+------------------------------------------------------------------------
+151 lubDaka
+151 lubDvA ->  (labDvA)
+151 luBita
+------------------------------------------------------------------------
+152 vitti
+152 vittvA -> vittva (vittA)
+152 vid
+------------------------------------------------------------------------
+153 visaNgata
+153 visaYjYa -> visajYa (visaMjYa)
+153 visannAha
+------------------------------------------------------------------------
+154 vyUrRu
+154 vyUrRvat ->  ()
+154 vyUh
+------------------------------------------------------------------------
+155 Sapta
+155 SaptvA ->  (SastvA)
+155 SaPa
+------------------------------------------------------------------------
+156 SudDi
+156 SudDvA -> SfdDvA (SudDA)
+156 Sotsyat
+------------------------------------------------------------------------
+157 SfdDa
+157 SfdDvA ->  (SudDvA)
+157 SfDu
+------------------------------------------------------------------------
+158 SudDvA
+158 Sotsyat -> Socayat (SoDayat,SoBayat)
+158 SodDavya
+------------------------------------------------------------------------
+159 saNkrAma
+159 saNkrAmat -> saNkrAmaH (saNkrAma)
+159 saNkrAmita
+------------------------------------------------------------------------
+160 saNkrAmat
+160 saNkrAmita ->  (saNkramita,saMkrAmita)
+160 saNkrI
+------------------------------------------------------------------------
+161 saNkrAmita
+161 saNkrI ->  (saNkarI,saNkArI,saMkrI,saNkrIq)
+161 saNkrIq
+------------------------------------------------------------------------
+162 saNkrI
+162 saNkrIq ->  (saNkrI,saMkrIq,saNkrIqe)
+162 saNkrIqana
+------------------------------------------------------------------------
+163 saNkrIq
+163 saNkrIqana -> saNkrIqaRa (saMkrIqana)
+163 saNkrIqamAna
+------------------------------------------------------------------------
+164 saNkrIqana
+164 saNkrIqamAna -> saNkrIqamARa ()
+164 saNkrIqita
+------------------------------------------------------------------------
+165 saNkrIqamAna
+165 saNkrIqita ->  (saMkrIqita)
+165 saNkruD
+------------------------------------------------------------------------
+166 saNkrIqita
+166 saNkruD ->  (sakruD,saMkruD,saNkruS)
+166 saNkrudDa
+------------------------------------------------------------------------
+167 saNkrudDa
+167 saNkruS -> saNkruD (saMkruS)
+167 saNkroSamAna
+------------------------------------------------------------------------
+168 saNkruS
+168 saNkroSamAna ->  (saNkrIqamAna)
+168 saNklid
+------------------------------------------------------------------------
+169 saNkroSamAna
+169 saNklid ->  (saNkliS)
+169 saNklinna
+------------------------------------------------------------------------
+170 saNklid
+170 saNklinna ->  (saMklinna)
+170 saNkleda
+------------------------------------------------------------------------
+171 saNkleda
+171 saNkliS ->  (saNklid,saMkliS)
+171 saNkliSya
+------------------------------------------------------------------------
+172 saNkliS
+172 saNkliSya ->  (saNkASya,saNklinna,saNkliS,saNklizwa,saNkleSa,saNkzipya)
+172 saNklizwa
+------------------------------------------------------------------------
+173 saNkliSya
+173 saNklizwa ->  (saMklizwa)
+173 saNkleSa
+------------------------------------------------------------------------
+174 saNklizwa
+174 saNkleSa -> saNkleda (saMkleSa)
+174 saNkzap
+------------------------------------------------------------------------
+175 saNkzarita
+175 saNkzi ->  (saMkzi,saNkzip)
+175 saNkzaya
+------------------------------------------------------------------------
+176 saNkzIyamARa
+176 saNkzip ->  (saNkzap,saNkzi,saMkzip)
+176 saNkzipat
+------------------------------------------------------------------------
+177 saNkzip
+177 saNkzipat ->  (saNkzip,saNkzipta,saNkzipti,saNkzipya,saNkzepa)
+177 saNkzipta
+------------------------------------------------------------------------
+178 saNkzipti
+178 saNkzipya ->  (saNkzipta)
+178 saNkzepa
+------------------------------------------------------------------------
+179 saNkzepaRa
+179 saNkzepaRIya ->  (saMkzepaRIya)
+179 saNkzud
+------------------------------------------------------------------------
+180 saNkzoBa
+180 saNkzoBita ->  (saNkzuBita,saMkzoBita)
+180 saNkzRu
+------------------------------------------------------------------------
+181 saNKya
+181 saNKyaka ->  (saMKyaka)
+181 saNKyAta
+------------------------------------------------------------------------
+182 saNgopana
+182 saNgraT ->  (saNgras,saNgrah)
+182 saNgraTita
+------------------------------------------------------------------------
+183 saNgraT
+183 saNgraTita ->  (saMgraTita)
+183 saNgras
+------------------------------------------------------------------------
+184 saNgraTita
+184 saNgras -> saNgrase (saNgraT,saMgras,saNgrah)
+184 saNgrah
+------------------------------------------------------------------------
+185 saNgras
+185 saNgrah ->  (saNgraT,saNgras,saMgrah,saNgraha)
+185 saNgfBita
+------------------------------------------------------------------------
+186 saNgrahaRa
+186 saNgrahaRIya ->  (saMgrahaRIya)
+186 saNgrahItf
+------------------------------------------------------------------------
+187 saNgrahaRIya
+187 saNgrahItf ->  (saMgrahItf)
+187 saNgrAha
+------------------------------------------------------------------------
+188 saNgrAha
+188 saNgrAhaka ->  (saMgrAhaka)
+188 saNgrAhita
+------------------------------------------------------------------------
+189 saNgrAhaka
+189 saNgrAhita ->  (saMgrAhita)
+189 saNgrAhin
+------------------------------------------------------------------------
+190 saNgrAhin
+190 saNgrAhya ->  (saNgrAha,saMgrAhya)
+190 saNgrAm
+------------------------------------------------------------------------
+191 saNGfzyat
+191 saNGrA ->  (saMGrA)
+191 sac
+------------------------------------------------------------------------
+192 saYcezwamAna
+192 saYcyu ->  (saYcu,saMcyu)
+192 saYCad
+------------------------------------------------------------------------
+193 saYjAnAna
+193 saYjYaka ->  (saYjaka,saMjYaka)
+193 saYjYapat
+------------------------------------------------------------------------
+194 saYjYaka
+194 saYjYapat ->  (saYjayat,saYjalpat,saYjYaka,saYjYapana,saYjYapita,saYjYapta,saYjYapti,saYjYAvat,saYjvalat)
+194 saYjYapana
+------------------------------------------------------------------------
+195 saYjYapana
+195 saYjYapita ->  (saMjYapita,saYjYapta,saYjYApita)
+195 saYjYapta
+------------------------------------------------------------------------
+196 saYjYA
+196 saYjYAta ->  (saYjAta,saMjYAta,saYjYAna,saYjYita)
+196 saYjYAna
+------------------------------------------------------------------------
+197 saYjYAta
+197 saYjYAna ->  (saYjYAta,saMjYAna)
+197 saYjYApana
+------------------------------------------------------------------------
+198 saYjYApana
+198 saYjYApita ->  (saYjYapita,saMjYApita)
+198 saYjYApya
+------------------------------------------------------------------------
+199 saYjYApita
+199 saYjYApya ->  (saYjYapta,saYjYAta,saYjYAna,saYjYApana,saYjYApita,saMjYAya,saYjvAlya)
+199 saYjYita
+------------------------------------------------------------------------
+200 saYjYita
+200 saYjYin ->  (saMjYin)
+200 saYjYu
+------------------------------------------------------------------------
+201 saYjYu
+201 saYjvar ->  (saMjvar,saYjvara,saYjval)
+201 saYjvara
+------------------------------------------------------------------------
+202 saYjvArin
+202 saYjval ->  (saYjvar,saMjval)
+202 saYjvalat
+------------------------------------------------------------------------
+203 saYjval
+203 saYjvalat ->  (saYjayat,saYjalpat,saYjIvayat,saYjYapat,saYjvara,saYjvaraH,saYjval)
+203 saYjvAlya
+------------------------------------------------------------------------
+204 saYjvalat
+204 saYjvAlya ->  (saMjvAlya)
+204 saw
+------------------------------------------------------------------------
+205 sadru
+205 saqvanqva ->  (sadvandva)
+205 saqvasaTa
+------------------------------------------------------------------------
+206 santrAsita
+206 santrE ->  (saMtrE)
+206 santvar
+------------------------------------------------------------------------
+207 sandyut
+207 sandru ->  (sadru,sanAru,saneru,saMdru)
+207 sandrAva
+------------------------------------------------------------------------
+208 sanDarzita
+208 sanDmA -> sanDA,sanDyA (saMDmA)
+208 sanDyE
+------------------------------------------------------------------------
+209 sanDmA
+209 sanDyE -> sanDya (sagDyE,sanDyA,saMDyE)
+209 sanDyA
+------------------------------------------------------------------------
+210 sannft
+210 sannyas ->  (sanIyas,sannas,saMnyas,sanyas)
+210 sannyasana
+------------------------------------------------------------------------
+211 samuccaya
+211 samuccyitvA ->  ()
+211 samuccita
+------------------------------------------------------------------------
+212 samudgIta
+212 samuqgranT ->  (samudgranT)
+212 samudgraTya
+------------------------------------------------------------------------
+213 samBftya
+213 samBriyamARa ->  (saMhriyamARa,samprIyamARa)
+213 samBraMS
+------------------------------------------------------------------------
+214 sasaciva
+214 sasaYjYa ->  (sasaMjYa)
+214 sasattva
+------------------------------------------------------------------------
+215 sANKya
+215 sANKyAyana ->  (sAMKyAyana)
+215 sANga
+------------------------------------------------------------------------
+216 sAdyanta
+216 sAdyazkra ->  (sAdyaHkra,sAdyaskra)
+216 sAdyaHkra
+------------------------------------------------------------------------
+217 sidDi
+217 sidDvA ->  (sidDA)
+217 siDitvA
+------------------------------------------------------------------------
+218 sivara
+218 sisaNgrAmayizu -> sizaNgrAmayizu (sisaMgrAmayizu)
+218 sizADayizA
+------------------------------------------------------------------------
+219 supta
+219 suptvA ->  (sutvA,supIvA,sfptvA)
+219 suzupARa
+------------------------------------------------------------------------
+220 sfpti
+220 sfptvA ->  (suptvA,sftvA)
+220 sfpra
+------------------------------------------------------------------------
+221 stabDi
+221 stabDvA -> stabDiH,stabDI (stabDa,stabDaH,stabDatA,stabDam,stabDi)
+221 staBita
+------------------------------------------------------------------------
+222 snigDa
+222 snigDvA -> snigDA ()
+222 snih
+------------------------------------------------------------------------
+223 saMvastraya
+223 saMvastrya ->  (saMvastraya)
+223 saMvas
+------------------------------------------------------------------------
+224 skanttf
+224 skanttvA ->  (syanttvA)
+224 skanda
+------------------------------------------------------------------------
+225 syantavya
+225 syanttvA ->  (skanttvA)
+225 syanda
+------------------------------------------------------------------------
+226 cucu
+226 cccU ->  (cucU,cuccU)
+226 cucuka
+------------------------------------------------------------------------
+227 adga
+227 adw -> adq (aw,aww,ad,ada,adA,adi,adu,adU,ado)
+227 adDA
+------------------------------------------------------------------------
+228 arucya
+228 aryj ->  (aruj,arj,arya,aryA,aryI)
+228 arugRa
+------------------------------------------------------------------------
+229 arucya
+229 aryj ->  (aruj,arj,arya,aryA,aryI)
+229 arugRa
+------------------------------------------------------------------------
+230 arOdra
+230 arrk -> ark (arrka)
+230 arrka
