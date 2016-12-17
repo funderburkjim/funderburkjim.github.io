@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+<meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org" name="generator" />
+<title>Euclid's Elements, Book V, Proposition 16</title>
+<link href="../elements.css" rel="stylesheet" type="text/css" />
+<script src="../elements.js" type="text/javascript">
+</script>
+<script language="javascript" src="../../js/jquery-3.0.0.min.js" type="text/javascript"> </script><script language="javascript" src="../../js/p5.js" type="text/javascript"> </script><script language="javascript" src="../euclidbundle.js" type="text/javascript"> </script></head>
+<body>
+<div id="header"></div>
+<script type="text/javascript">
+//
+loadHeader();
+//
+</script>
+<div class="theorem">
+<h1>Proposition 16</h1>
+<div class="statement">If four magnitudes are proportional, then
+they are also proportional alternately.</div>
+<p>Let <i>A, B, C,</i> and <i>D</i> be four proportional
+magnitudes, so that <i>A</i> is to <i>B</i> as <i>C</i> is to
+<i>D.</i></p>
+<p>I say that they are also so alternately, that is <i>A</i> is to
+<i>C</i> as <i>B</i> is to <i>D.</i></p>
+<div class="just"><a href="defV11.html">V.Def.12</a></div>
+<div class="ldiagram"><object height="150" width="450"><param name="background" value="35,19,100" />
+ <param name="align" value="above" />
+ <param name="title" value="V.16" />
+ <param name="e[1]" value="U1;point;free;0,0;0;0" />
+ <param name="e[2]" value="U2;point;free;25,0;0;0" />
+ <param name="e[3]" value="U;line;connect;U1,U2;0;0;0" />
+ <param name="e[4]" value="A1;point;free;30,30;0" />
+ <param name="e[5]" value="A3;point;parallelogram;A1,U;0;0" />
+ <param name="e[6]" value="A2;point;lineSlider;A1,A3,90,0;0" />
+ <param name="e[7]" value="A;line;connect;A1,A2;black;0;magenta" />
+ <param name="e[8]" value="B1;point;free;30,60;0" />
+ <param name="e[9]" value="B3;point;parallelogram;B1,U;0;0" />
+ <param name="e[10]" value="B2;point;lineSlider;B1,B3,80,0;0" />
+ <param name="e[11]" value="B;line;connect;B1,B2;black;0;magenta" />
+ <param name="e[12]" value="C1;point;free;280,30;0" />
+ <param name="e[13]" value="C3;point;parallelogram;C1,U;0;0" />
+ <param name="e[14]" value="C2;point;lineSlider;C1,C3,335,0;0" />
+ <param name="e[15]" value="C;line;connect;C1,C2;black;0;magenta" />
+ <param name="e[16]" value="D1;point;free;280,60;0" />
+ <param name="e[17]" value="D3;point;parallelogram;D1,U;0;0" />
+ <param name="e[18]" value="D2;point;proportion;A,B,C,D1,D3;0" />
+ <param name="e[19]" value="D;line;connect;D1,D2;black;0;magenta" />
+ <param name="e[20]" value="E0;point;free;30,100;0" />
+ <param name="e[21]" value="E';point;parallelogram;E0,U;0;0" />
+ <param name="e[22]" value="E1;point;cutoff;E0,E',A;0;lightGray" />
+ <param name="e[23]" value="E2;point;extend;E0,E1,A;0;lightGray" />
+ <param name="e[24]" value="E3;point;extend;E0,E2,A;0" />
+ <param name="e[25]" value="E;line;connect;E0,E3;black;0;magenta" />
+ <param name="e[26]" value="F0;point;free;30,130;0" />
+ <param name="e[27]" value="F';point;parallelogram;F0,U;0;0" />
+ <param name="e[28]" value="F1;point;cutoff;F0,F',B;0;lightGray" />
+ <param name="e[29]" value="F2;point;extend;F0,F1,B;0;lightGray" />
+ <param name="e[30]" value="F3;point;extend;F0,F2,B;0" />
+ <param name="e[31]" value="F;line;connect;F0,F3;black;0;magenta" />
+ <param name="e[32]" value="G0;point;free;280,100;0" />
+ <param name="e[33]" value="G';point;parallelogram;G0,U;0;0" />
+ <param name="e[34]" value="G1;point;cutoff;G0,G',C;0;lightGray" />
+ <param name="e[35]" value="G2;point;extend;G0,G1,C;0" />
+ <param name="e[36]" value="G;line;connect;G0,G2;black;0;magenta" />
+ <param name="e[37]" value="H0;point;free;280,130;0" />
+ <param name="e[38]" value="H';point;parallelogram;H0,U;0;0" />
+ <param name="e[39]" value="H1;point;cutoff;H0,H',D;0;lightGray" />
+ <param name="e[40]" value="H2;point;extend;H0,H1,D;0" />
+ <param name="e[41]" value="H;line;connect;H0,H2;black;0;magenta" /></object></div>
+<p>Take equimultiples <i>E</i> and <i>F</i> of <i>A</i> and
+<i>B,</i> and take other, arbitrary, equimultiples <i>G</i> and
+<i>H</i> of <i>C</i> and <i>D.</i></p>
+<div class="just"><a href="propV15.html">V.15</a></div>
+<p>Then, since <i>E</i> is the same multiple of <i>A</i> that
+<i>F</i> is of <i>B,</i> and parts have the same ratio as their
+equimultiples, therefore <i>A</i> is to <i>B</i> as <i>E</i> is to
+<i>F.</i></p>
+<div class="just"><a href="propV11.html">V.11</a></div>
+<p>But <i>A</i> is to <i>B</i> as <i>C</i> is to <i>D,</i>
+therefore <i>C</i> is to <i>D</i> also as <i>E</i> is to
+<i>F.</i></p>
+<div class="just"><a href="propV15.html">V.15</a></div>
+<p>Again, since <i>G</i> and <i>H</i> are equimultiples of <i>C</i>
+and <i>D,</i> therefore <i>C</i> is to <i>D</i> as <i>G</i> is to
+<i>H.</i></p>
+<div class="just"><a href="propV11.html">V.11</a></div>
+<p>But <i>C</i> is to <i>D</i> as <i>E</i> is to <i>F,</i>
+therefore as <i>E</i> is to <i>F</i> also as <i>G</i> is to
+<i>H.</i></p>
+<div class="just"><a href="propV14.html">V.14</a></div>
+<p>But, if four magnitudes are proportional, and the first is
+greater than the third, then the second is also greater than the
+fourth; if equal, equal; and if less, less.</p>
+<p>Therefore, if <i>E</i> is in excess of <i>G, F</i> is also in
+excess of <i>H</i>; if equal, equal; and if less, less.</p>
+<div class="just"><a href="defV5.html">V.Def.5</a></div>
+<p>Now <i>E</i> and <i>F</i> are equimultiples of <i>A</i> and
+<i>B,</i> and <i>G</i> and <i>H</i> other, arbitrary, equimultiples
+of <i>C</i> and <i>D,</i> therefore <i>A</i> is to <i>C</i> as
+<i>B</i> is to <i>D.</i></p>
+<p>Therefore, <i>if four magnitudes are proportional, then they are
+also proportional alternately.</i></p>
+<div class="qed">Q.E.D.</div>
+</div>
+<h2><a id="guide" name="guide">Guide</a></h2>
+The statement says that
+<i>a</i> : <i>b</i> = <i>c</i> : <i>d</i>
+implies
+<i>a</i> : <i>c</i> = <i>b</i> : <i>d</i>.
+The proof goes as follows. Let <i>m</i> and <i>n</i> be numbers.
+Since both
+<i>a</i> : <i>b</i> = <i>na</i> : <i>nb</i>
+and
+<i>c</i> : <i>d</i> = <i>mc</i> : <i>md</i>,
+therefore
+<i>na</i> : <i>nb</i> = <i>mc</i> : <i>md</i>.
+By <a href="propV14.html">V.14</a>, that implies
+<center><i>na</i> &gt;=&lt; <i>mc</i> implies
+<i>nb</i> &gt;=&lt; <i>md</i></center>
+<p>so by the definition of proportion <a href="defV5.html">V.Def.5</a>,
+<i>a</i> : <i>c</i> = <i>b</i> : <i>d</i>.
+<font size="-1">Q.E.D.</font></p>
+<h4>No mixed ratios</h4>
+The four magnitudes <i>A, B, C,</i> and <i>D</i> need to be of the
+same kind. If <i>A</i> and <i>B</i> are of a different kind than
+<i>C</i> and <i>D,</i> then the alternate ratios
+<i>A</i> : <i>C</i> and <i>B</i> : <i>D</i>
+would be “mixed.” The Greek geometers did not accept mixed ratios,
+but modern physicists and engineers routinely use them, as do we
+all since such a common measurement as velocity is made out of a
+ratio of a distance to a time.
+<p>This proposition requires using <a href="defV4.html">V.Def.4</a>
+as an axiom of comparability.</p>
+<h4>Use of this proposition</h4>
+This proposition is used in <a href="propV19.html">V.19</a> and a
+couple others in Book V, and frequently in Books VI, X, XI, and
+XII. Occasionally it is used when the magnitudes need not be all of
+the same kind, as it ought not.
+<div id="footer"></div>
+<script type="text/javascript">
+//
+  loadFooter("1996, 2013");
+//
+</script>
+</body>
+</html>

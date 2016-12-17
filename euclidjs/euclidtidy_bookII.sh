@@ -1,0 +1,16 @@
+sh euclidtidy.sh bookII/bookII.html
+sh euclidtidy.sh bookII/defII.html
+sh euclidtidy.sh bookII/propII1.html
+sh euclidtidy.sh bookII/propII10.html
+sh euclidtidy.sh bookII/propII11.html
+sh euclidtidy.sh bookII/propII12.html
+sh euclidtidy.sh bookII/propII13.html
+sh euclidtidy.sh bookII/propII14.html
+sh euclidtidy.sh bookII/propII2.html
+sh euclidtidy.sh bookII/propII3.html
+sh euclidtidy.sh bookII/propII4.html
+sh euclidtidy.sh bookII/propII5.html
+sh euclidtidy.sh bookII/propII6.html
+sh euclidtidy.sh bookII/propII7.html
+sh euclidtidy.sh bookII/propII8.html
+sh euclidtidy.sh bookII/propII9.html

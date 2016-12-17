@@ -1,0 +1,819 @@
+BEGIN euclidtidy.sh for bookXIII/bookXIII.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 19 column 1 - Warning: missing <dd>
+line 63 column 1 - Warning: missing </font> before <p>
+line 64 column 6 - Warning: inserting implicit <font>
+line 64 column 6 - Warning: missing </font> before <dt>
+line 64 column 13 - Warning: inserting implicit <font>
+line 64 column 13 - Warning: missing </font> before <dd>
+line 65 column 7 - Warning: inserting implicit <font>
+line 70 column 1 - Warning: missing </font> before <p>
+line 71 column 6 - Warning: inserting implicit <font>
+line 71 column 6 - Warning: missing </font> before <dt>
+line 71 column 13 - Warning: inserting implicit <font>
+line 71 column 13 - Warning: missing </font> before <dd>
+line 72 column 7 - Warning: inserting implicit <font>
+line 72 column 7 - Warning: missing </font> before <p>
+line 74 column 6 - Warning: inserting implicit <font>
+line 74 column 6 - Warning: missing </font> before <dt>
+line 74 column 13 - Warning: inserting implicit <font>
+line 74 column 13 - Warning: missing </font> before <dd>
+line 75 column 7 - Warning: inserting implicit <font>
+line 75 column 7 - Warning: missing </font> before <p>
+line 77 column 6 - Warning: inserting implicit <font>
+line 77 column 6 - Warning: missing </font> before <dt>
+line 77 column 13 - Warning: inserting implicit <font>
+line 77 column 13 - Warning: missing </font> before <dd>
+line 78 column 7 - Warning: inserting implicit <font>
+line 84 column 1 - Warning: missing </font> before <p>
+line 85 column 6 - Warning: inserting implicit <font>
+line 85 column 6 - Warning: missing </font> before <dt>
+line 85 column 13 - Warning: inserting implicit <font>
+line 85 column 13 - Warning: missing </font> before <dd>
+line 86 column 7 - Warning: inserting implicit <font>
+line 91 column 1 - Warning: missing </font> before <p>
+line 92 column 6 - Warning: inserting implicit <font>
+line 92 column 6 - Warning: missing </font> before <dt>
+line 92 column 13 - Warning: inserting implicit <font>
+line 92 column 13 - Warning: missing </font> before <dd>
+line 93 column 7 - Warning: inserting implicit <font>
+line 4 column 1 - Warning: <script> inserting "type" attribute
+line 9 column 1 - Warning: <script> inserting "type" attribute
+line 63 column 1 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 64 column 6 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 64 column 13 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 65 column 7 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 70 column 1 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 71 column 6 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 71 column 13 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 72 column 7 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 74 column 6 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 74 column 13 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 75 column 7 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 77 column 6 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 77 column 13 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 78 column 7 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 84 column 1 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 85 column 6 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 85 column 13 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 86 column 7 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 91 column 1 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 92 column 6 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 92 column 13 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 93 column 7 - Warning: <font> attribute "color" had invalid value "a00044" and has been replaced
+line 104 column 1 - Warning: <script> inserting "type" attribute
+line 19 column 1 - Warning: trimming empty <p>
+line 19 column 1 - Warning: trimming empty <dd>
+line 22 column 1 - Warning: trimming empty <p>
+line 28 column 1 - Warning: trimming empty <p>
+line 32 column 1 - Warning: trimming empty <p>
+line 35 column 1 - Warning: trimming empty <p>
+line 39 column 1 - Warning: trimming empty <p>
+line 42 column 1 - Warning: trimming empty <p>
+line 45 column 1 - Warning: trimming empty <p>
+line 49 column 1 - Warning: trimming empty <p>
+line 53 column 1 - Warning: trimming empty <p>
+line 57 column 1 - Warning: trimming empty <p>
+line 60 column 1 - Warning: trimming empty <p>
+line 63 column 1 - Warning: trimming empty <font>
+line 64 column 6 - Warning: trimming empty <font>
+line 64 column 1 - Warning: trimming empty <p>
+line 70 column 1 - Warning: trimming empty <font>
+line 71 column 6 - Warning: trimming empty <font>
+line 71 column 1 - Warning: trimming empty <p>
+line 74 column 6 - Warning: trimming empty <font>
+line 74 column 1 - Warning: trimming empty <p>
+line 77 column 6 - Warning: trimming empty <font>
+line 77 column 1 - Warning: trimming empty <p>
+line 84 column 1 - Warning: trimming empty <font>
+line 85 column 6 - Warning: trimming empty <font>
+line 85 column 1 - Warning: trimming empty <p>
+line 91 column 1 - Warning: trimming empty <font>
+line 92 column 6 - Warning: trimming empty <font>
+line 92 column 1 - Warning: trimming empty <p>
+line 97 column 1 - Warning: trimming empty <p>
+Info: Document content looks like XHTML 1.0 Transitional
+93 warnings, 0 errors were found!
+
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier to maintain
+compared with using <FONT> elements.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/bookXIII.html
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/bookXIII.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/bookXIII.html
+BEGIN euclidtidy.sh for bookXIII/propXIII1.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 57 column 336 - Warning: discarding unexpected </td>
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 85 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+5 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII1.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII1.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII1.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII1.html
+BEGIN euclidtidy.sh for bookXIII/propXIII10.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 57 column 93 - Warning: discarding unexpected </tr>
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 121 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+5 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII10.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII10.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII10.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII10.html
+BEGIN euclidtidy.sh for bookXIII/propXIII11.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 113 column 325 - Warning: discarding unexpected </td>
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 135 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+5 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII11.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII11.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII11.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII11.html
+BEGIN euclidtidy.sh for bookXIII/propXIII12.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 64 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII12.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII12.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII12.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII12.html
+BEGIN euclidtidy.sh for bookXIII/propXIII13.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 116 column 1 - Warning: <a> attribute "name" has invalid value "#lemma"
+line 176 column 6 - Warning: <table> lacks "summary" attribute
+line 227 column 1 - Warning: <script> inserting "type" attribute
+line 176 column 1 - Warning: trimming empty <p>
+line 211 column 1 - Warning: trimming empty <p>
+line 217 column 1 - Warning: trimming empty <p>
+line 116 column 1 - Warning: <a> cannot copy name attribute to id
+Info: Document content looks like XHTML 1.0 Transitional
+10 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII13.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII13.gif" />
+
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII13l.gif" />
+
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII13a.gif" /> 
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII13.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII13.html
+BEGIN euclidtidy.sh for bookXIII/propXIII14.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 97 column 384 - Warning: replacing invalid numeric character reference 151
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 112 column 17 - Warning: <table> attribute "bgcolor" had invalid value "ffffcc" and has been replaced
+line 112 column 17 - Warning: <table> lacks "summary" attribute
+line 123 column 6 - Warning: <table> lacks "summary" attribute
+line 183 column 1 - Warning: <script> inserting "type" attribute
+line 104 column 1 - Warning: trimming empty <p>
+line 106 column 11 - Warning: trimming empty <p>
+line 112 column 1 - Warning: trimming empty <p>
+line 123 column 1 - Warning: trimming empty <p>
+Info: Document content looks like XHTML 1.0 Transitional
+12 warnings, 0 errors were found!
+
+
+Character codes 128 to 159 (U+0080 to U+009F) are not allowed in HTML;
+even if they were, they would likely be unprintable control characters.
+Tidy assumed you wanted to refer to a character with the same byte value in the 
+specified encoding and replaced that reference with the Unicode equivalent.
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII14.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII14.gif" /> 
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII14a.gif" /> 
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII14.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII14.html
+BEGIN euclidtidy.sh for bookXIII/propXIII15.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 155 column 1 - Warning: <script> inserting "type" attribute
+line 105 column 1 - Warning: trimming empty <p>
+Info: Document content looks like XHTML 1.0 Transitional
+5 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII15.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII15.gif" /> 
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII15a.gif" /> 
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII15.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII15.html
+BEGIN euclidtidy.sh for bookXIII/propXIII16.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 212 column 1 - Warning: <a> attribute "name" has invalid value "#cor"
+line 306 column 1 - Warning: <script> inserting "type" attribute
+line 212 column 1 - Warning: <a> cannot copy name attribute to id
+Info: Document content looks like XHTML 1.0 Transitional
+6 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII16.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII16.gif" /> 
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII16a.gif" /> 
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII16.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII16.html
+BEGIN euclidtidy.sh for bookXIII/propXIII17.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 193 column 1 - Warning: <a> attribute "name" has invalid value "#cor"
+line 204 column 1 - Warning: <table> lacks "summary" attribute
+line 352 column 1 - Warning: <script> inserting "type" attribute
+line 216 column 1 - Warning: trimming empty <p>
+line 313 column 1 - Warning: trimming empty <p>
+line 322 column 1 - Warning: trimming empty <p>
+line 336 column 1 - Warning: trimming empty <p>
+line 342 column 1 - Warning: trimming empty <p>
+line 346 column 11 - Warning: trimming empty <p>
+line 193 column 1 - Warning: <a> cannot copy name attribute to id
+Info: Document content looks like XHTML 1.0 Transitional
+13 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII17.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII17.gif" />
+
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII17a.gif" /> 
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII17.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII17.html
+BEGIN euclidtidy.sh for bookXIII/propXIII18.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 10 column 1 - Warning: missing </div> before <td>
+line 94 column 349 - Warning: inserting implicit <table>
+line 94 column 349 - Warning: missing <tr>
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 148 column 1 - Warning: discarding unexpected </div>
+line 94 column 349 - Warning: <br> isn't allowed in <table> elements
+line 94 column 349 - Warning: <a> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <br> isn't allowed in <table> elements
+line 94 column 349 - Warning: <a> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <a> isn't allowed in <table> elements
+line 94 column 349 - Warning: <h2> isn't allowed in <table> elements
+line 94 column 349 - Warning: <h4> isn't allowed in <table> elements
+line 94 column 349 - Warning: plain text isn't allowed in <table> elements
+line 94 column 349 - Warning: <i> isn't allowed in <table> elements
+line 94 column 349 - Warning: plain text isn't allowed in <table> elements
+line 94 column 349 - Warning: <i> isn't allowed in <table> elements
+line 94 column 349 - Warning: plain text isn't allowed in <table> elements
+line 94 column 349 - Warning: <i> isn't allowed in <table> elements
+line 94 column 349 - Warning: <sup> isn't allowed in <table> elements
+line 94 column 349 - Warning: plain text isn't allowed in <table> elements
+line 94 column 349 - Warning: <i> isn't allowed in <table> elements
+line 94 column 349 - Warning: <sup> isn't allowed in <table> elements
+line 94 column 349 - Warning: plain text isn't allowed in <table> elements
+line 94 column 349 - Warning: <p> isn't allowed in <table> elements
+line 94 column 349 - Warning: <center> isn't allowed in <table> elements
+line 94 column 349 - Warning: <div> isn't allowed in <table> elements
+line 94 column 349 - Warning: <script> isn't allowed in <table> elements
+line 94 column 349 - Warning: missing </table> before </body>
+line 10 column 1 - Warning: missing </div>
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 177 column 1 - Warning: <a> attribute "name" has invalid value "#lemma"
+line 222 column 17 - Warning: <table> attribute "bgcolor" had invalid value "ffffcc" and has been replaced
+line 222 column 17 - Warning: <table> lacks "summary" attribute
+line 256 column 1 - Warning: <script> inserting "type" attribute
+line 94 column 349 - Warning: <table> lacks "summary" attribute
+line 222 column 1 - Warning: trimming empty <p>
+line 177 column 1 - Warning: <a> cannot copy name attribute to id
+Info: Document content looks like XHTML 1.0 Transitional
+69 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII18.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII18.gif" />
+
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII18l.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+{http://www.w3.org/1999/xhtml}div  has a script child
+writing  bookXIII/propXIII18.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII18.html
+BEGIN euclidtidy.sh for bookXIII/propXIII2.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 81 column 1 - Warning: <a> attribute "name" has invalid value "#lemma"
+line 111 column 1 - Warning: <script> inserting "type" attribute
+line 81 column 1 - Warning: <a> cannot copy name attribute to id
+Info: Document content looks like XHTML 1.0 Transitional
+6 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII2.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII2.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII2.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII2.html
+BEGIN euclidtidy.sh for bookXIII/propXIII3.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 91 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII3.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII3.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII3.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII3.html
+BEGIN euclidtidy.sh for bookXIII/propXIII4.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 51 column 217 - Warning: discarding unexpected </td>
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 79 column 1 - Warning: <script> inserting "type" attribute
+line 65 column 1 - Warning: trimming empty <p>
+Info: Document content looks like XHTML 1.0 Transitional
+6 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII4.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII4.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII4.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII4.html
+BEGIN euclidtidy.sh for bookXIII/propXIII5.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 74 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII5.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII5.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII5.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII5.html
+BEGIN euclidtidy.sh for bookXIII/propXIII6.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 18 column 124 - Warning: discarding unexpected </td>
+line 45 column 226 - Warning: discarding unexpected </td>
+line 10 column 1 - Warning: missing </div> before <td>
+line 46 column 1 - Warning: inserting implicit <table>
+line 46 column 1 - Warning: missing <tr>
+line 62 column 1 - Warning: discarding unexpected </div>
+line 46 column 1 - Warning: <a> isn't allowed in <tr> elements
+line 46 column 1 - Warning: <h2> isn't allowed in <tr> elements
+line 46 column 1 - Warning: plain text isn't allowed in <tr> elements
+line 46 column 1 - Warning: <h4> isn't allowed in <tr> elements
+line 46 column 1 - Warning: plain text isn't allowed in <tr> elements
+line 46 column 1 - Warning: <a> isn't allowed in <tr> elements
+line 46 column 1 - Warning: plain text isn't allowed in <tr> elements
+line 46 column 1 - Warning: <div> isn't allowed in <tr> elements
+line 46 column 1 - Warning: <script> isn't allowed in <tr> elements
+line 46 column 1 - Warning: missing </table> before </body>
+line 10 column 1 - Warning: missing </div>
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 74 column 1 - Warning: <script> inserting "type" attribute
+line 46 column 1 - Warning: <table> lacks "summary" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+22 warnings, 0 errors were found!
+
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII6.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII6.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+{http://www.w3.org/1999/xhtml}div  has a script child
+writing  bookXIII/propXIII6.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII6.html
+BEGIN euclidtidy.sh for bookXIII/propXIII7.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 84 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII7.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII7.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII7.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII7.html
+BEGIN euclidtidy.sh for bookXIII/propXIII8.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 90 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII8.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII8.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII8.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII8.html
+BEGIN euclidtidy.sh for bookXIII/propXIII9.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 3 column 1 - Warning: <script> inserting "type" attribute
+line 8 column 1 - Warning: <script> inserting "type" attribute
+line 84 column 1 - Warning: <script> inserting "type" attribute
+Info: Document content looks like XHTML 1.0 Transitional
+4 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+checking xmllint
+end checking xmllint
+Further adjustments by euclidtidy.py
+
+euclidtidy.py begins...
+parsing bookXIII/propXIII9.html
+found applet
+removing applet/img: <html:img xmlns:html="http://www.w3.org/1999/xhtml" alt="java applet or image" src="propXIII9.gif" />
+
+{http://www.w3.org/1999/xhtml}head  has a script child
+{http://www.w3.org/1999/xhtml}body  has a script child
+writing  bookXIII/propXIII9.html
+euclidtidy.py is finished
+
+END euclidtidy.sh for bookXIII/propXIII9.html

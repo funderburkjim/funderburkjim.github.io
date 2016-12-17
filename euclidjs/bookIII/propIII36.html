@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+<meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org" name="generator" />
+<title>Euclid's Elements, Book III, Proposition 36</title>
+<link href="../elements.css" rel="stylesheet" type="text/css" />
+<script src="../elements.js" type="text/javascript">
+</script>
+<script language="javascript" src="../../js/jquery-3.0.0.min.js" type="text/javascript"> </script><script language="javascript" src="../../js/p5.js" type="text/javascript"> </script><script language="javascript" src="../euclidbundle.js" type="text/javascript"> </script></head>
+<body>
+<div id="header"></div>
+<script type="text/javascript">
+//
+loadHeader();
+//
+</script>
+<div class="theorem">
+<h1>Proposition 36</h1>
+<div class="statement">If a point is taken outside a circle and two
+straight lines fall from it on the circle, and if one of them cuts
+the circle and the other touches it, then the rectangle contained
+by the whole of the straight line which cuts the circle and the
+straight line intercepted on it outside between the point and the
+convex circumference equals the square on the tangent.</div>
+<p>Let a point <i>D</i> be taken outside the circle <i>ABC,</i> and
+from <i>D</i> let the two straight lines <i>DCA</i> and <i>DB</i>
+fall on the circle <i>ABC.</i> Let <i>DCA</i> cut the circle
+<i>ABC,</i> and let <i>BD</i> touch it.</p>
+<p>I say that the rectangle <i>AD</i> by <i>DC</i> equals the
+square on <i>DB.</i></p>
+<div class="ldiagram"><object height="250" width="280"><param name="background" value="35,19,100" />
+ <param name="title" value="III.36a" />
+ <param name="e[1]" value="A;point;free;200,50" />
+ <param name="e[2]" value="D;point;free;54,220" />
+ <param name="e[3]" value="AD;line;connect;A,D" />
+ <param name="e[4]" value="C;point;lineSlider;AD,80,180" />
+ <param name="e[5]" value="F;point;midpoint;A,C;black;green" />
+ <param name="pivot" value="F" />
+ <param name="e[6]" value="ABC;circle;radius;F,A;0;0;black;random" />
+ <param name="e[7]" value="M;point;midpoint;D,F;0;0" />
+ <param name="e[8]" value="BDF;circle;radius;M,D;0;0;0;0" />
+ <param name="e[9]" value="BB';line;bichord;ABC,BDF;0;0;0" />
+ <param name="e[10]" value="B;point;first;BB'" />
+ <param name="e[11]" value="BF;line;connect;B,F" />
+ <param name="e[12]" value="BD;line;connect;B,D" /></object></div>
+<p>Then <i>DCA</i> is either through the center or not through the
+center.</p>
+<div class="just"><a href="propIII18.html">III.18</a></div>
+<p>First let it be through the center, and let <i>F</i> be the
+center of the circle <i>ABC.</i> Join <i>FB.</i> Therefore the
+angle <i>FBD</i> is right.</p>
+<div class="just"><a href="../bookII/propII6.html">II.6</a></div>
+<p>And, since <i>AC</i> has been bisected at <i>F,</i> and
+<i>CD</i> is added to it, the rectangle <i>AD</i> by <i>DC</i> plus
+the square on <i>FC</i> equals the square on <i>FD.</i></p>
+<p>But <i>FC</i> equals <i>FB,</i> therefore the rectangle
+<i>AD</i> by <i>DC</i> plus the square on <i>FB</i> equals the
+square on <i>FD.</i></p>
+<div class="just"><a href="../bookI/propI47.html">I.47</a></div>
+<p>And the sum of the squares on <i>FB</i> and <i>BD</i> equals the
+square on <i>FD,</i> therefore the rectangle <i>AD</i> by <i>DC</i>
+plus the square on <i>FB</i> equals the sum of the squares on
+<i>FB</i> and <i>BD.</i></p>
+<p>Subtract the square on <i>FB</i> from each. Therefore the
+remaining rectangle <i>AD</i> by <i>DC</i> equals the square on the
+tangent <i>DB.</i></p>
+<div class="just"><a href="propIII1.html">III.1</a></div>
+<p>Again, let <i>DCA</i> not be through the center of the circle
+<i>ABC.</i> Take the center <i>E,</i> and draw <i>EF</i> from
+<i>E</i> perpendicular to <i>AC.</i> Join <i>EB, EC,</i> and
+<i>ED.</i></p>
+<div class="just"><a href="propIII18.html">III.18</a></div>
+<p>Then the angle <i>EBD</i> is right.</p>
+<div class="ldiagram"><object height="230" width="280"><param name="background" value="35,19,100" />
+ <param name="title" value="III.36b" />
+ <param name="e[1]" value="A;point;free;220,170" />
+ <param name="e[2]" value="D;point;free;30,204" />
+ <param name="e[3]" value="AD;line;connect;A,D" />
+ <param name="e[4]" value="E;point;free;150,115" />
+ <param name="e[5]" value="ABC;circle;radius;E,A;0;0;black;random" />
+ <param name="e[6]" value="AC;line;chord;A,D,ABC;0;0;0" />
+ <param name="e[7]" value="C;point;last;AC" />
+ <param name="e[8]" value="F;point;midpoint;A,C;black;green" />
+ <param name="e[9]" value="DE;line;connect;D,E" />
+ <param name="e[10]" value="EF;line;connect;E,F" />
+ <param name="e[11]" value="EC;line;connect;E,C" />
+ <param name="e[12]" value="M;point;midpoint;D,E;0;0" />
+ <param name="e[13]" value="BDE;circle;radius;M,D;0;0;0;0" />
+ <param name="e[14]" value="B'B;line;bichord;ABC,BDE;0;0;0" />
+ <param name="e[15]" value="B;point;last;B'B" />
+ <param name="e[16]" value="BE;line;connect;B,E" />
+ <param name="e[17]" value="BD;line;connect;B,D" /></object></div>
+<div class="just"><a href="propIII3.html">III.3</a></div>
+<p>And, since a straight line <i>EF</i> through the center cuts a
+straight line <i>AC</i> not through the center at right angles, it
+also bisects it, therefore <i>AF</i> equals <i>FC.</i></p>
+<div class="just"><a href="../bookII/propII6.html">II.6</a></div>
+<p>Now, since the straight line <i>AC</i> has been bisected at the
+point <i>F,</i> and <i>CD</i> is added to it, the rectangle
+<i>AD</i> by <i>DC</i> plus the square on <i>FC</i> equals the
+square on <i>FD.</i></p>
+<p>Add the square on <i>FE</i> to each. Therefore the rectangle
+<i>AD</i> by <i>DC</i> plus the sum of the squares on <i>CF</i> and
+<i>FE</i> equals the sum of the squares on <i>FD</i> and
+<i>FE.</i></p>
+<div class="just"><a href="../bookI/propI47.html">I.47</a></div>
+<p>But the square on <i>EC</i> equals the sum of the squares on
+<i>CF</i> and <i>FE,</i> for the angle <i>EFC</i> is right, and the
+square on <i>ED</i> equals the sum of the squares on <i>DF</i> and
+<i>FE,</i> therefore the rectangle <i>AD</i> by <i>DC</i> plus the
+square on <i>EC</i> equals the square on <i>ED.</i></p>
+<p>And <i>EC</i> equals <i>EB,</i> therefore the rectangle
+<i>AD</i> by <i>DC</i> plus the square on <i>EB</i> equals the
+square on <i>ED.</i></p>
+<div class="just"><a href="../bookI/propI47.html">I.47</a></div>
+<p>But the sum of the squares on <i>EB</i> and <i>BD</i> equals the
+square on <i>ED,</i> for the angle <i>EBD</i> is right, therefore
+the rectangle <i>AD</i> by <i>DC</i> plus the square on <i>EB</i>
+equals the sum of the squares on <i>EB</i> and <i>BD.</i></p>
+<p>Subtract the square on <i>EB</i> from each. Therefore the
+remaining rectangle <i>AD</i> by <i>DC</i> equals the square on
+<i>DB.</i></p>
+<p>Therefore <i>if a point is taken outside a circle and two
+straight lines fall from it on the circle, and if one of them cuts
+the circle and the other touches it, then the rectangle contained
+by the whole of the straight line which cuts the circle and the
+straight line intercepted on it outside between the point and the
+convex circumference equals the square on the tangent.</i></p>
+<div class="qed">Q.E.D.</div>
+</div>
+<h2><a id="guide" name="guide">Guide</a></h2>
+This proposition is used in the next one.
+<div id="footer"></div>
+<script type="text/javascript">
+//
+  loadFooter("1996");
+//
+</script>
+</body>
+</html>

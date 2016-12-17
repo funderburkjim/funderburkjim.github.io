@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+<meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org" name="generator" />
+<title>Euclid's Elements, Book III, Proposition 11</title>
+<link href="../elements.css" rel="stylesheet" type="text/css" />
+<script src="../elements.js" type="text/javascript">
+</script>
+<script language="javascript" src="../../js/jquery-3.0.0.min.js" type="text/javascript"> </script><script language="javascript" src="../../js/p5.js" type="text/javascript"> </script><script language="javascript" src="../euclidbundle.js" type="text/javascript"> </script></head>
+<body>
+<div id="header"></div>
+<script type="text/javascript">
+//
+loadHeader();
+//
+</script>
+<div class="theorem">
+<h1>Proposition 11</h1>
+<div class="statement">If two circles touch one another internally,
+and their centers are taken, then the straight line joining their
+centers, being produced, falls on the point of contact of the
+circles.</div>
+<div class="just"><a href="propIII1.html">III.1</a></div>
+<p>Let the two circles <i>ABC</i> and <i>ADE</i> touch one another
+internally at the point <i>A,</i> and let the centers <i>F</i> and
+<i>G</i> of the circles <i>ABC</i> and <i>ADE</i> be taken.</p>
+<div class="ldiagram"><object height="280" width="290"><param name="background" value="35,19,100" />
+ <param name="title" value="III.11" />
+ <param name="e[1]" value="A;point;free;50,70" />
+ <param name="e[2]" value="B;point;free;260,160;black;0" />
+ <param name="e[3]" value="C;point;free;110,260;black;0" />
+ <param name="e[4]" value="ABC;circle;circumcircle;A,B,C;0;0;black;random" />
+ <param name="e[5]" value="F;point;center;ABC;black;green" />
+ <param name="pivot" value="F" />
+ <param name="e[6]" value="AF;line;connect;A,F" />
+ <param name="e[7]" value="D;point;free;143,50" />
+ <param name="e[8]" value="M;point;midpoint;A,D;0;0" />
+ <param name="e[9]" value="MN;line;perpendicular;M,D;0;0;0" />
+ <param name="e[10]" value="F';point;intersection;MN,AF;0;0" />
+ <param name="e[11]" value="ADE;circle;radius;F',A;0;0;black;random" />
+ <param name="e[12]" value="E;point;circleSlider;ADE,110,210;black;0" />
+ <param name="e[13]" value="G;point;lineSlider;D,F,90,110" />
+ <param name="e[14]" value="AG;line;connect;A,G" />
+ <param name="e[15]" value="AH;line;cutoff;F,D,F,A" />
+ <param name="e[16]" value="H;point;last;AH" /></object></div>
+<p>I say that the straight line joined from <i>G</i> to <i>F</i>
+and produced falls on <i>A.</i></p>
+<p>For suppose it does not, but, if possible, let it fall as
+<i>FGH.</i> Join <i>AF</i> and <i>AG.</i></p>
+<div class="just"><a href="../bookI/propI20.html">I.20</a></div>
+<p>Then, since the sum of <i>AG</i> and <i>GF</i> is greater than
+<i>FA,</i> that is, than <i>FH,</i> subtract <i>FG</i> from each,
+therefore the remainder <i>AG</i> is greater than the remainder
+<i>GH.</i></p>
+<p>But <i>AG</i> equals <i>GD,</i> therefore <i>GD</i> is also
+greater than <i>GH,</i> the less greater than the greater, which is
+impossible.</p>
+<p>Therefore the straight line joined from <i>F</i> to <i>G</i>
+does not fall outside. Therefore it falls on <i>A,</i> the point of
+contact.</p>
+<p>Therefore <i>if two circles touch one another internally, and
+their centers are taken, then the straight line joining their
+centers, being produced, falls on the point of contact of the
+circles.</i></p>
+<div class="qed">Q.E.D.</div>
+<br clear="all" /></div>
+<h2><a id="guide" name="guide">Guide</a></h2>
+In order to carry through the proof, in particular so that
+<i>FA</i> = <i>FH,</i> the circle <i>ABC</i> needs to be
+the larger circle.
+<p>Various conclusions in the proof are based on the figure rather
+than rigorous deductive reasoning. Camerer and others have
+suggested ways of filling the gaps.</p>
+<p>This proposition is used in <a href="propIII13.html">III.13</a>.</p>
+<div id="footer"></div>
+<script type="text/javascript">
+//
+  loadFooter("1996");
+//
+</script>
+</body>
+</html>

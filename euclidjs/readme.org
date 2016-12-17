@@ -1,0 +1,528 @@
+* local urls
+localhost:8001/clark/elements/bookXI/defXI11.html
+file:///Users/funderburk1/Documents/Processing/euclidp5/v08/bookXI/defXI14.html
+
+* Nov 27, 2016 misc other parts
+** usingApplet.html
+#in v08.
+cp usingApplet.html orig_usingApplet.html
+sh euclidtidy.sh usingApplet.html
+** TODO text of usingApplet
+ The references to 'java applet' are not applicable.
+ Also, the 'floating' window logic is NOT implemented (see next)
+** TODO floating frame
+Ref Geometry.java and ClientFrame.java.
+also 'usingApplet.html'
+# edit modified usingApplet.html to remove 
+# one '../' in the js scripts
+* Nov 11, 2016 Begin bookXIII
+Begins solid geometry
+#in v08 directory:
+python maketidybookscript.py bookXIII html
+mkdir bookXIII
+sh euclidtidy_bookXIII.sh >& temp
+ #check for errors:
+grep error temp 
+#   Should show just '0 errors were found' for each file
+** Download gifs for bookXIII
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookXIII.sh bookXIII
+ NOTE: this usually shows PARSE errors. Just ignore
+cd ../clarkhtml
+sh make_download_bookXIII.sh
+
+Finally, back to v08
+cd ../v08
+** copy a needed gif
+needed by propXIII10.html
+*** copy to bookXIII template only
+cp ../clarkhtml/bookXIII/propXIII10a.gif bookXIII/
+*** copy to local Java version bookXIII
+cp ../clarkhtml/bookXIII/propXIII10a.gif ~/Documents/euclidv1/clark/elements/bookXIII/
+** DONE correct error in propXIII6.html
+Some of the html is missing in the modified version!
+(a) Save the originally constructed version in old_propXIII6.html
+(b) Use the clarkhtml/bookXIII/propXIII6.html to patch the active version.
+Note: the problem was a gratuitous <td> at lines 45,6 in the clarkhtml code:
+   Therefore <i>CD</i> is also rational.</td>
+   <td><small>X.Def.4</small>
+Apparently tidy got confused by this and omitted some code, which is now
+replaced.
+* Nov 4, 2016 Begin bookXII 
+Begins solid geometry
+#in v08 directory:
+python maketidybookscript.py bookXII html
+mkdir bookXII
+sh euclidtidy_bookXII.sh >& temp
+ #check for errors:
+grep error temp 
+#   Should show just '0 errors were found' for each file
+** Download gifs for bookXII
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookXII.sh bookXII
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookXII.sh
+
+Finally, back to v08
+cd ../v08
+** copy some needed gifs
+needed by propXII17a.html
+*** copy to bookXII template only
+cp ../clarkhtml/bookXII/propXII17a.gif bookXII/
+*** copy to local Java version bookXI
+cp ../clarkhtml/bookXII/propXII17a.gif ~/Documents/euclidv1/clark/elements/bookXII/
+
+* Oct 23, 2016 Begin bookXI 
+Begins solid geometry
+#in v08 directory:
+python maketidybookscript.py bookXI html
+mkdir bookXI
+sh euclidtidy_bookXI.sh >& temp
+ #check for errors:
+grep error temp 
+#   Should show just '0 errors were found' for each file
+** Download gifs for bookXI
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookXI.sh bookXI
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookXI.sh
+
+Finally, back to v08
+cd ../v08
+** DONE copy some needed gifs
+needed by defXI25.html
+*** copy to bookXI
+cp ../clarkhtml/bookXI/defXI25a.gif bookXI/
+cp ../clarkhtml/bookXI/defXI25.gif bookXI/
+cp ../clarkhtml/bookXI/defXI26.gif bookXI/
+cp ../clarkhtml/bookXI/defXI27.gif bookXI/
+cp ../clarkhtml/bookXI/defXI28.gif bookXI/
+*** copy to local Java version bookXI
+cp ../clarkhtml/bookXI/defXI25a.gif ~/Documents/euclidv1/clark/elements/bookXI/
+cp ../clarkhtml/bookXI/defXI25.gif ~/Documents/euclidv1/clark/elements/bookXI/
+cp ../clarkhtml/bookXI/defXI26.gif ~/Documents/euclidv1/clark/elements/bookXI/
+cp ../clarkhtml/bookXI/defXI27.gif ~/Documents/euclidv1/clark/elements/bookXI/
+cp ../clarkhtml/bookXI/defXI28.gif ~/Documents/euclidv1/clark/elements/bookXI/
+
+~/Documents/euclidv1/clark/elements/bookXI/
+** propXI18.html  alpha-channel?
+ Part of two lines look 'brighter' - how is this done?
+ Maybe the effect is due to use of 'lightGray'?
+* Oct 14, 2016 Begin bookX 
+This is an uninteresting and obscure book - my opinion and also that
+of others.
+in v08 directory:
+python maketidybookscript.py bookX html
+mkdir bookX
+sh euclidtidy_bookX.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+** Download gifs for bookX
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookX.sh bookX
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookX.sh
+
+Finally, back to v08
+cd ../v08
+** DONE bookX/defX.II.html
+  This was missing. Why ?
+  (a) downloaded from clark site into clarkhtml
+  curl --fail -o bookX/defX.II.html  http://aleph0.clarku.edu/~djoyce/elements/bookX/defX.II.html
+  (b) copied into euclidv1/clark/elements/bookX/
+  (c) ran euclidtidy on the clarkhtml version
+
+** DONE bookX/defX.III.html
+  This was missing. Why ?
+  (a) downloaded from clark site into clarkhtml
+   edit ../clarktml/extra_bookX.sh
+     curl --fail -o bookX/defX.III.html  http://aleph0.clarku.edu/~djoyce/elements/bookX/defX.III.html
+   cd ../clarkhtml
+   sh extra_bookX.sh
+   cd ../v08
+  (b) copy into euclidv1/clark/elements/bookX/
+  cp ../clarkhtml/bookX/defX.III.html ~/Documents/euclidv1/clark/elements/bookX/
+  (c) run euclidtidy on the clarkhtml version
+  sh euclidtidy.sh bookX/defX.III.html
+
+* Sep 22, 2016 Begin bookIX (first of three books on number theory)
+in v08 directory:
+python maketidybookscript.py bookIX html
+mkdir bookIX
+sh euclidtidy_bookIX.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+** Download gifs for bookIX
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookIX.sh bookIX
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookIX.sh
+
+Finally, back to v08
+cd ../v08
+** DONE propIX12
+ Add missing </div> after line 132 (before <h2>Guide</hs>)
+* Sep 21, 2016 Begin bookVIII (first of three books on number theory)
+in v08 directory:
+python maketidybookscript.py bookVIII html
+mkdir bookVIII
+sh euclidtidy_bookVIII.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+** DONE propVIII8.html
+ </div> <!-- added manually -->
+ at line 133 (just before <h2>Guide</h2>)
+** TODO propVIII9
+ In guide, 'n 1st' should be '(n-1)st'
+** DONE propvIII13
+ Remove spurious '5' at line 69.
+** Download gifs for bookVIII
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookVIII.sh bookVIII
+ NOTE: this usually shows PARSE errors. Not sure
+** Download gifs for bookVIII
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookVIII.sh bookVIII
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookVIII.sh
+
+Finally, back to v08
+cd ../v08
+* Sep 17, 2016 Begin bookVII (first of three books on number theory)
+in v08 directory:
+python maketidybookscript.py bookVII html
+mkdir bookVII
+sh euclidtidy_bookVII.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+** TODO propVII8
+ The formula "(m/n)b + (m/n)e, = (m/n)(b + e)" should be
+  "(m/n)b - (m/n)e, = (m/n)(b - e)"
+** TODO propVII34
+ Formula "LCM(a, b) = ab/LCM(a, b)" should be
+  "LCM(a, b) = ab/GCD(a, b)".
+
+** Download gifs for bookVII
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookVII.sh bookVII
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookVII.sh
+
+Finally, back to v08
+cd ../v08
+* Sep 11, 2016 Begin bookVI
+in v08 directory:
+python maketidybookscript.py bookVI html
+mkdir bookVI
+sh euclidtidy_bookVI.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+** DONE 2 errors in temp
+bookVI/propVI30.html  
+ Changed a '<tp>' tag to '<p>' at line 49 of ../clarkhtml/bookVI/propVI30.html 
+ sh euclidtidy.sh bookVI/propVI30.html 
+
+bookVI/propVI7.html
+Changed a '<tp>' tag to '<p>' at line 99 of ../clarkhtml/bookVI/propVI7.html 
+ sh euclidtidy.sh bookVI/propVI7.html 
+
+** Download gifs for bookVI
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookVI.sh bookVI
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookVI.sh
+
+Finally, back to v08
+cd ../v08
+* Sep 9, 2016 Begin bookV
+in v08 directory:
+python maketidybookscript.py bookV html
+mkdir bookV
+sh euclidtidy_bookV.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+
+** Download gifs for bookV
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookV.sh bookV
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookV.sh
+
+Finally, back to v08
+cd ../v08
+** TODO propV1
+  'Proposition 2' should be 'Proposition 1' (typo)
+** COMMENT:  all these proofs are suspect!
+Reason, the terms are ill-defined, so it is not possible to
+say what is to be proved and what is assumed.
+All can be converted to statements about ratios of positive real numbers,
+and then are trivial consequences in the ordered field of Reals.
+* Sep 7, 2016 Begin bookIV
+in v08 directory:
+python maketidybookscript.py bookIV html
+mkdir bookIV
+sh euclidtidy_bookIV.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+
+** Download gifs for bookIV
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookIV.sh bookIV
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookIV.sh
+
+Finally, back to v08
+cd ../v08
+** TODO propIV4
+ The formulas in 3rd section require adjustment, 
+for instance
+rA (AB + AC - CA)/2  should be rA (AB + AC - BC)/2 
+and
+rA(s - A) should be rA(s - a).
+** TODO propIV16
+ There is repetition in the proof.
+ Also, the wording of the Guide is not quite right.
+* Sep 2, 2016 Begin bookIII
+in v08 directory:
+python maketidybookscript.py bookIII html
+mkdir bookIII
+sh euclidtidy_bookIII.sh >& temp
+ check for errors:
+grep error temp 
+   Should show just '0 errors were found' for each file
+
+** Download gifs for bookIII
+cd ../work # now in euclidp5/work
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookIII.sh bookIII
+ NOTE: this usually shows PARSE errors. Not sure at this point whether these are relevant.
+cd ../clarkhtml
+sh make_download_bookIII.sh
+
+Finally, back to v08
+cd ../v08
+** DONE defIII1.html doesn't have a div whose 'id' attribute starts with 'ap'
+This is what euclidFinish.js uses to find the applets.
+Instead it has <center><object ...>...</object></center>
+I manually change this to
+<center><div id="ap1"><object ...>...</object></div></center>
+** DONE defIII2.html  has same problem
+** DONE defIII4.html, defIII6.html  have similar problem
+but here the parent is a 'td' rather than 'center'
+** TODO defIII6.html
+  The lines AC and AB are visible in euclidjs, but not in Java. 
+  However, when the figure is user-altered by dragging something, these lines disappear.
+  In debugging PolygonElement.drawEdge, it indeed appears that these lines are
+  drawn with color yellow (and hence should be invisible).  
+  So, this is a puzzle.
+** defIII10.html, defIII11.html
+same as defIII2, etc.
+** DONE Changed EuclidFinish to handle cases like defIII2, 4, etc.
+** TODO PropIII25.html
+ The two diagrams to the left have different spacing (the two 'class="ldiagram" divs)
+ in JS version compared to Java version.
+ ALSO: "therefore be also equals"  should be "therefore <i>BE</i> also equals"
+** TODO PropIII29
+  The picture and the proof don't coincide.
+* Aug 28, 2016 Begin bookII
+python maketidybookscript.py bookII html
+mkdir bookII
+sh euclidtidy_bookII.sh
+** Download gifs for bookII
+in directory euclidp5/work:
+python make_download.py imgsrc1.txt ../clarkhtml/make_download_bookII.sh bookII
+cd ../clarkhtml
+sh make_download_bookII.sh
+** DONE propII5.html requires propII5c.gif and propII5b.gif
+  (Pythagorean theorem)
+ (relative to v08)
+ cp ../clarkhtml/bookII/propII5b.gif bookII/
+ cp ../clarkhtml/bookII/propII5b.gif  ~/Documents/euclidv1/clark/elements/bookII/
+ cp ../clarkhtml/bookII/propII5c.gif bookII/
+ cp ../clarkhtml/bookII/propII5c.gif  ~/Documents/euclidv1/clark/elements/bookII/
+
+** DONE propII6.html requires propII6b.gif 
+  (Pythagorean theorem)
+ (relative to v08)
+ cp ../clarkhtml/bookII/propII6b.gif bookII/
+ cp ../clarkhtml/bookII/propII6b.gif  ~/Documents/euclidv1/clark/elements/bookII/
+** DONE bookII/propII10.html is missing
+in 
+sh euclidtidy.sh bookII/propII10.html,
+ tidy program has an error and fails:
+tidy --output-xhtml yes --numeric-entities yes --output-encoding utf8 -o $FILE ../clarkhtml/$FILE
+The error is:
+ line 197 column 1 - Error: <id> is not recognized!
+This is error in ../clarkhtml/bookII/propII10.html
+Here are lines 197 and 198:
+<id id="ap2">
+<applet code=Geometry codebase="../../Geometry" archive=Geometry.zip height=340 width=350>
+Thus, '<id' should be '<div'.
+Manually make this change to ../clarkhtml/bookII/propII10.html
+Rerun script:
+sh euclidtidy.sh bookII/propII10.html
+** TODO bookII/propII10.html has a duplicate 
+These two consecutive sentences appear twice.
+ "Note how the squares..." and "Likewise, the ratio..."
+** TODO bookI/propII13.html
+  The figure extends beyond the 'beige' text box in JS version, but not in Java version.
+  This is because the height of the 'beige' box is less in the JS version
+
+* ERRORS in html files
+** one earlier where <param/> was on two lines (?)  START HERE!
+** propI11.html
+ <i>FG</>   ==> <i>FG</i>
+
+** DONE propI19.html requires PropI19b.gif
+   (law of sines). Copied from ../clarkhtml/bookI/propI19b.gif to bookI/
+  and also copied to ~/Documents/euclidv1/clark/elements/bookI/
+** DONE propI47.html requires propI47a.gif 
+  (Pythagorean theorem)
+ (relative to v07)
+ cp ../clarkhtml/bookI/propI47a.gif bookI/
+ cp ../clarkhtml/bookI/propI47a.gif  ~/Documents/euclidv1/clark/elements/bookI/
+
+** TODO cn.html  
+In the conversion (v08/bookI/cn.html) there are
+<div style="margin-left: 2em">
+in several places. These are completely absent in clarkhtml/bookI/cn.html.
+Where do they come from? from tidy?
+** TODO propI7.html
+ some vertical line spacing differences at 
+ If x < y and y = z, then x < z.
+** TODO propI9.html
+ there is no boundary before the 'guide' section.
+** TODO propI15.html
+ v08 canvas breaks bottom boundary, but Java versions does not.
+** TODO propI17.html
+line spacing difference at
+If x > y, then x + z > y + z. 
+* DIFFERENCES from Java
+** DONE propI12.html 
+Point F does not draw a vertex, but it has a black vertex in Java.
+Similarly for points E and G.
+The reason has to do with how Java initializes an 'int'.
+Namely, Java 'int dimension;' sets the value of 'dimension' to the integer 0.
+However, 'var dimension;' sets the value of 'dimension' to 'undefined'.
+So changed, in Element.js, the default value of dimension to 0.
+Then, in Geometry.js, in the determination of vertexColor, this '0' value
+comes into play, so that a Point, whose vertexColor is not otherwise determined,
+has a dimension == 0, so gets a vertexColor of Black.
+
+* maketidybookscript
+in v07 directory:
+python maketidybookscript.py bookI html
+  finds all html files X in ../clarkhtml/bookI
+  writes a script named euclidtidy_bookI.sh
+  which has a line:
+   sh euclidtidy.sh bookI/X.html
+  for each such X.
+
+* v07 euclidtidy.py uses XML processing
+sh euclidtidy.sh bookI/post1.html
+sh euclidtidy.sh bookI/bookI.html
+
+* v06 process to transform clarkhtml files
+Run this from the vxx directory
+* sh euclidtidy.sh elements.html 
+ &rsquo; does not display properly in the tidied file.
+ It is transformed to proper utf-8 code, BUT ..
+ There seems to be no option in tidy to get the '<meta charset="utf-8" />'
+ inserted into the output.
+ The little program euclidtidy.py does this, along with a few other things
+
+sh euclidtidy.sh bookI/bookI.html
+tidy ../clarkhtml/copyright.htlm
+
+tidy ../clarkhtml/bookI/
+* clark.sh
+
+* v05 concatenate the files
+  sh redo.sh  creates a file euclidbundle.js, by concatenating numerous javascript files.
+  This file is loaded by a script statement in the html file.
+  The html file is as constructed by applying tidy to one of Clark's html files.
+  (see 'USING TIDY' below for discussion)
+** here are the lines that load all of my Javascript:
+  <script language="javascript" type="text/javascript" src="../../js/jquery-3.0.0.min.js"></script>
+  <script language="javascript" type="text/javascript" src="../../js/p5.js"></script>
+<script language="javascript" type="text/javascript" src="../euclidbundle.js"></script>
+
+These lines may be put at the end of the <head> section of the html.
+** what other changes to the html?
+  The 'java:disabled' lines should be omitted, or commented out:
+<!-- we don't want this alternate  ejf
+<script type="text/javascript">
+//<![CDATA[
+if (!navigator.javaEnabled()) document.getElementById('ap1').innerHTML =
+  '<img src="post1.gif" hspace=10 vspace=10 alt="Post.1">';
+//]]>
+</script> -->
+
+** next step:
+  make a program which:
+  (a) runs tidy on one of clarkhtml .html files, generating xhtml
+      and in same file name relative to v0x directory
+  (b) Python file modifies by adding/removing lines to this tidied html file
+  (c) checks the end result by xmllint.
+
+* Starting Python webserver
+python -m SimpleHTTPServer 8000
+* v01
+ Similar to v00, but further encapsulates
+* v02
+  Add keyPressed, to reset when 'r','R' or ' ' key is pressed.
+* download of images
+There are many gifs (600 or so) in Clark's pages that use applets.
+Generally, for any <applet>, there is a corresponding gif.
+If a user doesn't have Java enabled, then the gif is shown instead.
+For this section, we concentrate on loading the images. 
+The strategy is to generate a shell script that will use 'curl' to download the images.
+First, we generate a text file with the image statements:
+grep -r '<img' clarkhtml > work/imgsrc.txt 
+This usually contains each <img> statement twice, once within the applet tag, and
+once within a javascript <script> whose purpose is to use the image if Java applet not functioning.
+We edit imgsrc.txt, and retain only those <img> tags within the applet tag; save result as imgsrc1.txt
+
+
+* Using the gifs, discussion
+For instance 
+<div id="ap1">
+<applet code=Geometry codebase="../../Geometry" archive=Geometry.zip height=150 width=250>
+<img src="defI10.gif" alt="java applet or image">
+<param ...>
+...
+</div>
+<script>
+if (!navigator.javaEnabled()) document.getElementById('ap1').innerHTML =
+  '<img src="defI10.gif" hspace=10 vspace=10 alt="I.Def.10">';
+</script>
+
+The <noscript> tag should allow this kind of variation when a browser doesn't support javascript.
+http://aleph0.clarku.edu/~djoyce/elements/bookI/post4.gif
+ in 
+
+* USING TIDY
+tidy --output-xhtml yes --numeric-entities yes --output-encoding utf8 -o temp-xhtml.html ../clarkhtml/bookI/post1.html
+There are numerous errors or 'slack' coding present in the clarhtml  html files.
+This version of tidy seems to generate equivalent and syntactically correct html output;
+for 'xmllint --noout temp-xhtml.html'  shows no errors.
+
+Note: 'tidy' program is present automatically in MacOSX. This is an 'Apple' version.
+The comparison of this apple version with 'official' versions of tidy (from the 
+ html-tidy.org web site) is not spelled out, but the various options used as above seem to work.
+

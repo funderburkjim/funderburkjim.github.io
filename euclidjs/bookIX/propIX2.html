@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+<meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org" name="generator" />
+<title>Euclid's Elements, Book IX, Proposition 2</title>
+<link href="../elements.css" rel="stylesheet" type="text/css" />
+<script src="../elements.js" type="text/javascript">
+</script>
+<script language="javascript" src="../../js/jquery-3.0.0.min.js" type="text/javascript"> </script><script language="javascript" src="../../js/p5.js" type="text/javascript"> </script><script language="javascript" src="../euclidbundle.js" type="text/javascript"> </script></head>
+<body>
+<div id="header"></div>
+<script type="text/javascript">
+//
+loadHeader();
+//
+</script>
+<div class="theorem">
+<h1>Proposition 2</h1>
+<div class="statement">If two numbers multiplied by one another
+make a square number, then they are similar plane numbers.</div>
+<p>Let <i>A</i> and <i>B</i> be two numbers, and let <i>A</i>
+multiplied by <i>B</i> make the square number <i>C.</i></p>
+<p>I say that <i>A</i> and <i>B</i> are similar plane numbers.</p>
+<p>Multiply <i>A</i> by itself to make <i>D.</i> Then <i>D</i> is
+square.</p>
+<div class="ldiagram"><object height="170" width="260"><param name="background" value="35,19,100" />
+ <param name="title" value="IX.2" />
+ <param name="align" value="above" />
+ <param name="e[1]" value="A0;point;free;-1000,40;0;0" />
+ <param name="e[2]" value="A3;point;free;1000,40;0;0" />
+ <param name="e[3]" value="B0;point;free;-1000,75;0;0" />
+ <param name="e[4]" value="B3;point;free;1000,75;0;0" />
+ <param name="e[5]" value="C0;point;free;-1000,110;0;0" />
+ <param name="e[6]" value="C3;point;free;1000,110;0;0" />
+ <param name="e[7]" value="D0;point;free;-1000,145;0;0" />
+ <param name="e[8]" value="D3;point;free;1000,145;0;0" />
+ <param name="e[9]" value="U1;point;free;1000,0;0;0" />
+ <param name="e[10]" value="U2;point;free;1000,35;0;0" />
+ <param name="e[11]" value="A1;point;lineSlider;A0,A3,30,0;0" />
+ <param name="e[12]" value="A2;point;lineSlider;A0,A3,100,0;0" />
+ <param name="e[13]" value="A;line;connect;A1,A2;black" />
+ <param name="e[14]" value="B1;point;lineSlider;B0,B3,30,0;0" />
+ <param name="e[15]" value="B2;point;lineSlider;B0,B3,135,0;0" />
+ <param name="e[16]" value="B;line;connect;B1,B2;black" />
+ <param name="e[17]" value="C1;point;lineSlider;C0,C3,30,0;0" />
+ <param name="e[18]" value="C2;point;proportion;U1,U2,A1,A2,B1,B2,C1,C3;0" />
+ <param name="e[19]" value="C;line;connect;C1,C2;black" />
+ <param name="e[20]" value="D1;point;lineSlider;D0,D3,30,0;0" />
+ <param name="e[21]" value="D2;point;proportion;U1,U2,A1,A2,A1,A2,D1,D3;0" />
+ <param name="e[22]" value="D;line;connect;D1,D2;black" /></object></div>
+<div class="just"><a href="../bookVII/propVII17.html">VII.17</a></div>
+<p>Now, since <i>A</i> multiplied by itself makes <i>D,</i> and
+multiplied by <i>B</i> makes <i>C,</i> therefore <i>A</i> is to
+<i>B</i> as <i>D</i> is to <i>C.</i></p>
+<p>And, since <i>D</i> is square, and <i>C</i> is so also,
+therefore <i>D</i> and <i>C</i> are similar plane numbers.</p>
+<div class="just"><a href="../bookVIII/propVIII18.html">VIII.18</a><br />
+<a href="../bookVIII/propVIII8.html">VIII.8</a></div>
+<p>Therefore one mean proportional number falls between <i>D</i>
+and <i>C.</i> And <i>D</i> is to <i>C</i> as <i>A</i> is to
+<i>B,</i> therefore one mean proportional number falls between
+<i>A</i> and <i>B</i> also.</p>
+<div class="just"><a href="../bookVIII/propVIII20.html">VIII.20</a></div>
+<p>But, if one mean proportional number falls between two numbers,
+then they are similar plane numbers, therefore <i>A</i> and
+<i>B</i> are similar plane numbers.</p>
+<p>Therefore, <i>if two numbers multiplied by one another make a
+square number, then they are similar plane numbers.</i></p>
+<div class="qed">Q.E.D.</div>
+</div>
+<h2>Guide</h2>
+This proposition is a converse of the previous one.
+<p>As an example to illustrate this proposition, take any square
+number, such as 20<sup>2</sup> = 400. It can be factored
+as a product of two numbers in several ways. One such factorization
+is as <i>a</i> = 50 times <i>b</i> = 8. These
+two numbers have a mean proportional between them, namely, 20, so
+by <a href="../bookVIII/propVIII20.html">VIII.20</a>, they are
+similar plane numbers. (The actual shapes given by that proposition
+make 8 to be 2 by 4, and 50 to be 5 by 10.)</p>
+<h4>Outline of the proof</h4>
+Let <i>a</i> and <i>b</i> be two numbers whose product <i>ab</i> is
+a square. Now, both <i>a</i><sup>2</sup> and <i>ab</i> are square
+numbers which means that they’re similar plane numbers. By <a href="../bookVIII/propVIII8.html">VIII.8</a>, there’s a mean
+proportional between them. But
+<i>a<sup>2</sup> : ab = a : b, so
+there is also a mean proportional between a and b (<a href="../bookVIII/propVIII8.html">VIII.8</a>). Therefore, a and b are
+similar plane figures (<a href="../bookVIII/propVIII20.html">VIII.20</a>).</i>
+<p>As in the last proof, this one can be shortened. When the
+product <i>ab</i> is a square, say <i>e</i><sup>2</sup>, then a
+mean proportional between <i>a</i> and <i>b</i> is <i>e.</i></p>
+<div id="footer"></div>
+<script type="text/javascript">
+//
+  loadFooter("1996, 2002");
+//
+</script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+<meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org" name="generator" />
+<title>Euclid's Elements, Book V, Proposition 5</title>
+<link href="../elements.css" rel="stylesheet" type="text/css" />
+<script src="../elements.js" type="text/javascript">
+</script>
+<script language="javascript" src="../../js/jquery-3.0.0.min.js" type="text/javascript"> </script><script language="javascript" src="../../js/p5.js" type="text/javascript"> </script><script language="javascript" src="../euclidbundle.js" type="text/javascript"> </script></head>
+<body>
+<div id="header"></div>
+<script type="text/javascript">
+//
+loadHeader();
+//
+</script>
+<div class="theorem">
+<h1>Proposition 5</h1>
+<div class="statement">If a magnitude is the same multiple of a
+magnitude that a subtracted part is of a subtracted part, then the
+remainder also is the same multiple of the remainder that the whole
+is of the whole.</div>
+<p>Let the magnitude <i>AB</i> be the same multiple of the
+magnitude <i>CD</i> that the subtracted part <i>AE</i> is of the
+subtracted part <i>CF.</i></p>
+<p>I say that the remainder <i>EB</i> is also the same multiple of
+the remainder <i>FD</i> that the whole <i>AB</i> is of the whole
+<i>CD.</i></p>
+<p>Make <i>CG</i> so that <i>EB</i> is the same multiple of
+<i>CG</i> that <i>AE</i> is of <i>CF.</i></p>
+<div class="ldiagram"><object height="100" width="300"><param name="background" value="35,19,100" />
+ <param name="title" value="V.5" />
+ <param name="align" value="above" />
+ <param name="e[1]" value="U0;point;free;-1000,40;0;0" />
+ <param name="e[2]" value="U1;point;free;1000,40;0;0" />
+ <param name="e[3]" value="V0;point;free;-1000,80;0;0" />
+ <param name="e[4]" value="V1;point;free;1000,80;0;0" />
+ <param name="e[5]" value="C;point;lineSlider;V0,V1,125,80" />
+ <param name="e[6]" value="F;point;lineSlider;V0,V1,170,80" />
+ <param name="e[7]" value="D;point;lineSlider;V0,V1,205,80" />
+ <param name="e[8]" value="G;point;cutoff;C,V0,D,F" />
+ <param name="e[9]" value="GD;line;connect;G,D;0;0;red" />
+ <param name="e[10]" value="E;point;lineSlider;U0,U1,160,40" />
+ <param name="e[11]" value="A2;point;cutoff;E,U0,F,C;0;lightGray" />
+ <param name="e[12]" value="A1;point;cutoff;A2,U0,F,C;0;lightGray" />
+ <param name="e[13]" value="A;point;cutoff;A1,U0,F,C" />
+ <param name="e[14]" value="B2;point;cutoff;E,U1,F,D;0;lightGray" />
+ <param name="e[15]" value="B1;point;cutoff;B2,U1,F,D;0;lightGray" />
+ <param name="e[16]" value="B;point;cutoff;B1,U1,F,D" />
+ <param name="e[17]" value="AB;line;connect;A,B;0;0;red" /></object></div>
+<div class="just"><a href="propV1.html">V.1</a></div>
+<p>Then, since <i>AE</i> is the same multiple of <i>CF</i> that
+<i>EB</i> is of <i>GC,</i> therefore <i>AE</i> is the same multiple
+of <i>CF</i> that <i>AB</i> is of <i>GF.</i></p>
+<p>But, by the assumption, <i>AE</i> is the same multiple of
+<i>CF</i> that <i>AB</i> is of <i>CD.</i></p>
+<p>Therefore <i>AB</i> is the same multiple of each of the
+magnitudes <i>GF</i> and <i>CD.</i> Therefore <i>GF</i> equals
+<i>CD.</i></p>
+<p>Subtract <i>CF</i> from each. Then the remainder <i>GC</i>
+equals the remainder <i>FD.</i></p>
+<p>And, since <i>AE</i> is the same multiple of <i>CF</i> that
+<i>EB</i> is of <i>GC,</i> and <i>GC</i> equals <i>DF,</i>
+therefore <i>AE</i> is the same multiple of <i>CF</i> that
+<i>EB</i> is of <i>FD.</i></p>
+<p>But, by hypothesis, <i>AE</i> is the same multiple of <i>CF</i>
+that <i>AB</i> is of <i>CD,</i> therefore <i>EB</i> is the same
+multiple of <i>FD</i> that <i>AB</i> is of <i>CD.</i></p>
+<p>That is, the remainder <i>EB</i> is the same multiple of the
+remainder <i>FD</i> that the whole <i>AB</i> is of the whole
+<i>CD.</i></p>
+<p>Therefore, <i>If a magnitude is the same multiple of a magnitude
+that a subtracted part is of a subtracted part, then the remainder
+also is the same multiple of the remainder that the whole is of the
+whole.</i></p>
+<div class="qed">Q.E.D.</div>
+</div>
+<h2><a id="guide" name="guide">Guide</a></h2>
+This proposition is analogous to <a href="propV1.html">V.1</a> but
+involves differences rather than sums. It states that
+multiplication by numbers distributes over subtraction of
+magnitudes: <i>m</i>
+(<i>x</i> – <i>y</i>) = <i>mx</i> – <i>my.</i>
+<p>Note that all the magnitudes in this proposition are of the same
+kind.</p>
+<h4>The problem of parts</h4>
+There’s a construction at the beginning of the proof to make a part
+of a magnitude:
+<div style="margin-left: 2em">Make <i>CG</i> so that <i>EB</i> is
+the same multiple of <i>CG</i> that <i>AE</i> is of
+<i>CF.</i></div>
+so that, if for example, <i>AE</i> is a third of <i>CF,</i> then
+<i>CG</i> is to be made a third of <i>EB.</i> Such constructions
+cannot be made for all kinds of magnitudes, in particular, angles
+and arcs.
+<p>Alternative proofs that don’t require constructions of parts are
+relatively easy to find. A more interesting problem of general
+constructions for magnitudes is discussed in the <a href="propV18.html#guide">Guide</a> for proposition V.18.</p>
+<p>This proposition is not used in the rest of the
+<i>Elements.</i></p>
+<div id="footer"></div>
+<script type="text/javascript">
+//
+  loadFooter("1996");
+//
+</script>
+</body>
+</html>

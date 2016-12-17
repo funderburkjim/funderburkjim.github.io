@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+<meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org" name="generator" />
+<title>Euclid's Elements, Book II, Proposition 4</title>
+<link href="../elements.css" rel="stylesheet" type="text/css" />
+<script src="../elements.js" type="text/javascript">
+</script>
+<script language="javascript" src="../../js/jquery-3.0.0.min.js" type="text/javascript"> </script><script language="javascript" src="../../js/p5.js" type="text/javascript"> </script><script language="javascript" src="../euclidbundle.js" type="text/javascript"> </script></head>
+<body>
+<div id="header"></div>
+<script type="text/javascript">
+//
+loadHeader();
+//
+</script>
+<div class="theorem">
+<h1>Proposition 4</h1>
+<div class="statement">If a straight line is cut at random, then
+the square on the whole equals the sum of the squares on the
+segments plus twice the rectangle contained by the segments.</div>
+<p>Let the straight line <i>AB</i> be cut at random at
+<i>C.</i></p>
+<p>I say that the square on <i>AB</i> equals the sum of the squares
+on <i>AC</i> and <i>CB</i> plus twice the rectangle <i>AC</i> by
+<i>CB.</i></p>
+<div class="ldiagram">
+<div id="ap1"><object height="220" width="230"><param name="background" value="35,19,100" />
+ <param name="title" value="II.4" />
+ <param name="e[1]" value="A0;point;free;-1000,40;0,0" />
+ <param name="e[2]" value="A3;point;free;1000,40;0,0" />
+ <param name="e[3]" value="A;point;lineSlider;A0,A3,40,0" />
+ <param name="e[4]" value="B;point;lineSlider;A0,A3,190,0" />
+ <param name="e[5]" value="C;point;lineSlider;A0,A3,130,0" />
+ <param name="e[6]" value="BADE;polygon;square;B,A" />
+ <param name="e[7]" value="E;point;vertex;BADE,4" />
+ <param name="e[8]" value="D;point;vertex;BADE,3" />
+ <param name="e[9]" value="BD;line;connect;B,D" />
+ <param name="e[10]" value="F;point;parallelogram;D,A,C" />
+ <param name="e[11]" value="CF;line;connect;C,F" />
+ <param name="e[12]" value="G;point;intersection;C,F,B,D" />
+ <param name="e[13]" value="DFGH;polygon;parallelogram;D,F,G;0;0;0;random" />
+ <param name="e[14]" value="H;point;vertex;DFGH,4" />
+ <param name="e[15]" value="K;point;intersection;G,H,B,E" />
+ <param name="e[16]" value="HK;line;connect;H,K" />
+ <param name="e[17]" value="CBKG;polygon;quadrilateral;C,B,K,G;0;0;0;random" /></object></div>
+</div>
+<div class="just"><a href="../bookI/propI46.html">I.46</a><br />
+<a href="../bookI/propI31.html">I.31</a></div>
+<p>Describe the square <i>ADEB</i> on <i>AB.</i> Join <i>BD.</i>
+Draw <i>CF</i> through <i>C</i> parallel to either <i>AD</i> or
+<i>EB,</i> and draw <i>HK</i> through <i>G</i> parallel to either
+<i>AB</i> or <i>DE.</i></p>
+<div class="just"><a href="../bookI/propI29.html">I.29</a></div>
+<p>Then, since <i>CF</i> is parallel to <i>AD,</i> and <i>BD</i>
+falls on them, the exterior angle <i>CGB</i> equals the interior
+and opposite angle <i>ADB.</i></p>
+<div class="just"><a href="../bookI/propI5.html">I.5</a><br />
+<a href="../bookI/propI6.html">I.6</a></div>
+<p>But the angle <i>ADB</i> equals the angle <i>ABD,</i> since the
+side <i>BA</i> also equals <i>AD.</i> Therefore the angle
+<i>CGB</i> also equals the angle <i>GBC,</i> so that the side
+<i>BC</i> also equals the side <i>CG.</i></p>
+<div class="just"><a href="../bookI/propI34.html">I.34</a></div>
+<p>But <i>CB</i> equals <i>GK,</i> and <i>CG</i> to <i>KB.</i>
+Therefore <i>GK</i> also equals <i>KB.</i> Therefore <i>CGKB</i> is
+equilateral.</p>
+<p>I say next that it is also right-angled.</p>
+<div class="just"><a href="../bookI/propI29.html">I.29</a></div>
+<p>Since <i>CG</i> is parallel to <i>BK,</i> the sum of the angles
+<i>KBC</i> and <i>GCB</i> equals two right angles.</p>
+<div class="just"><a href="../bookI/propI34.html">I.34</a></div>
+<p>But the angle <i>KBC</i> is right. Therefore the angle
+<i>BCG</i> is also right, so that the opposite angles <i>CGK</i>
+and <i>GKB</i> are also right.</p>
+<p>Therefore <i>CGKB</i> is right-angled, and it was also proved
+equilateral, therefore it is a square, and it is described on
+<i>CB.</i></p>
+<div class="just"><a href="../bookI/propI34.html">I.34</a></div>
+<p>For the same reason <i>HF</i> is also a square, and it is
+described on <i>HG,</i> that is <i>AC.</i> Therefore the squares
+<i>HF</i> and <i>KC</i> are the squares on <i>AC</i> and
+<i>CB.</i></p>
+<div class="just"><a href="../bookI/propI43.html">I.43</a></div>
+<p>Now, since <i>AG</i> equals <i>GE,</i> and <i>AG</i> is the
+rectangle <i>AC</i> by <i>CB,</i> for <i>GC</i> equals <i>CB,</i>
+therefore <i>GE</i> also equals the rectangle <i>AC</i> by
+<i>CB.</i> Therefore the sum of <i>AG</i> and <i>GE</i> equals
+twice the rectangle <i>AC</i> by <i>CB.</i></p>
+<p>But the squares <i>HF</i> and <i>CK</i> are also the squares on
+<i>AC</i> and <i>CB,</i> therefore the sum of the four figures
+<i>HF, CK, AG,</i> and <i>GE</i> equals the sum of the squares on
+<i>AC</i> and <i>CB</i> plus twice the rectangle <i>AC</i> by
+<i>CB.</i></p>
+<p>But <i>HF, CK, AG,</i> and <i>GE</i> are the whole <i>ADEB,</i>
+which is the square on <i>AB.</i></p>
+<p>Therefore the square on <i>AB</i> equals the the sum of the
+squares on <i>AC</i> and <i>CB</i> plus twice the rectangle
+<i>AC</i> by <i>CB.</i></p>
+<p>Therefore <i>if a straight line is cut at random, the square on
+the whole equals the squares on the segments plus twice the
+rectangle contained by the segments.</i></p>
+<div class="qed">Q.E.D.</div>
+</div>
+<h2><a id="guide" name="guide">Guide</a></h2>
+The statement of the proposition can be interpreted in modern
+notation as saying that if
+<i>x</i> = <i>y</i> + <i>z,</i> then
+<i>x</i><sup>2</sup> = <i>y</i><sup>2</sup> + <i>z</i><sup>2</sup> + 2<i>yz.</i>
+More simply, as an identity, it says
+<center>
+(<i>y</i> + <i>z</i>)<sup>2</sup> = <i>y</i><sup>2</sup> + <i>z</i><sup>2</sup> + 2<i>yz.</i></center>
+<h4>Use of this proposition</h4>
+This is one of the more frequently used propositions of Book II. It
+is used in <a href="propII12.html">II.12</a> later in this book,
+frequently in <a href="../bookX/bookX.html">BookX</a>, and in
+<a href="../bookXIII/propXIII2.html">XIII.2</a>. Also, the
+analogous statement for numbers is used in <a href="../bookIX/propIX15.html">IX15</a>,
+<div id="footer"></div>
+<script type="text/javascript">
+//
+  loadFooter("1996");
+//
+</script>
+</body>
+</html>
