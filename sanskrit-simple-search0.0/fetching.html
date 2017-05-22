@@ -173,7 +173,8 @@ function onGetDataTimeout() {
                 this.isGetDataProcessing = false;
                 // ejf
                 console.log('html = ',html);
-                document.write(html);
+                //document.write(html);
+                $('#outputdiv').html(html);
                 return;
                 let w = new Word(html);
                 if (w.name != ""){
@@ -395,10 +396,13 @@ function getVariants(word){
       handleCount = 0;
       repeatCnt = 0;
 
-      document.body.innerHTML = 'Loading...';
-
+      //document.body.innerHTML = 'Loading...';
+       $('#outputdiv').html("<p>Loading...</p>");
     var res = getVariants(find_word, llist);
-
+    
+    //res = [res[0]];  // ejf
+    var wstring = res.join(',');
+    res = [wstring];
     res.forEach(function(w) {
       /**
       Test data
@@ -416,6 +420,8 @@ function getVariants(word){
           test.url = localStorage.getItem('settings.url');
           // ejf reset test.url
           test.url = "http://www.sanskrit-lexicon.uni-koeln.de/scans/WILScan/2014/web/webtc/getword_phreebie.php";
+          test.transLit = 'hk';
+          test.filter = 'deva';
       let dm = new DataModel(test);
       console.log("w=" + w);
         dm.setKey(w);
@@ -431,5 +437,6 @@ function getVariants(word){
     </script>
 	   <input type="text" size="40" onchange="test(this.value)">
      <a href="#" onclick="openInNewTab('settings.html');">Settings>></a>
+   <div id="outputdiv"></div>
   </body>
 </html>
